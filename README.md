@@ -48,4 +48,42 @@ rosdep install --from-paths src --ignore-src -r -y
 # Build workspace
 colcon build --symlink-install
 
+### Nodes  
+
+Each new terminal must source:  
+
+```bash
+source /opt/ros/humble/setup.bash
+source ~/ros2_vio_px4_ws/install/setup.bash
+Terminal 2 – Run VINS Estimator
+
+bash
+Copy code
+source /opt/ros/humble/setup.bash
+source ~/ros2_vio_px4_ws/install/setup.bash
+
+ros2 launch vins_estimator euroc.launch.py
+Terminal 3 – Run Pose Graph
+
+bash
+Copy code
+source /opt/ros/humble/setup.bash
+source ~/ros2_vio_px4_ws/install/setup.bash
+
+ros2 run pose_graph pose_graph
+Terminal 4 – Run PX4 Bridge
+
+bash
+Copy code
+source /opt/ros/humble/setup.bash
+source ~/ros2_vio_px4_ws/install/setup.bash
+
+ros2 run vins_px4_bridge pose_bridge
+Terminal 5 – PX4 / SITL
+
+bash
+Copy code
+cd ~/PX4-Autopilot
+make px4_sitl gazebo-classic
+(or whichever SITL you use)
 
