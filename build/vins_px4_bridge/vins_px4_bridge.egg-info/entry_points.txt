@@ -1,0 +1,4 @@
+[console_scripts]
+drift_monitor = vins_px4_bridge.drift_monitor:main
+pose_bridge = vins_px4_bridge.pose_bridge:main
+

@@ -1,0 +1,51 @@
+[0.029s] Invoking command in '/home/deva/ros2_vio_px4_ws/build/config_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --build /home/deva/ros2_vio_px4_ws/build/config_pkg -- -j8 -l8
+[0.278s] Invoked command in '/home/deva/ros2_vio_px4_ws/build/config_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --build /home/deva/ros2_vio_px4_ws/build/config_pkg -- -j8 -l8
+[0.288s] Invoking command in '/home/deva/ros2_vio_px4_ws/build/config_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --install /home/deva/ros2_vio_px4_ws/build/config_pkg
+[0.294s] -- Install configuration: "Release"
+[0.294s] -- Execute custom install script
+[0.295s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/3dm/3dm_config.yaml
+[0.295s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/AR_demo.rviz
+[0.295s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/ar_demo_rviz.rviz
+[0.295s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/black_box/black_box_config.yaml
+[0.295s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/cla/cla_config.yaml
+[0.295s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/euroc/euroc_config.yaml
+[0.295s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/euroc/euroc_config_no_extrinsic.yaml
+[0.295s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/extrinsic_parameter_example.pdf
+[0.295s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/fisheye_mask.jpg
+[0.295s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/fisheye_mask_752x480.jpg
+[0.295s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/gif/vins_ros2_ar_demo.gif
+[0.295s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/gif/vins_ros2_benchmark_mh01.gif
+[0.295s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/gif/vins_ros2_benchmark_mh02.gif
+[0.296s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/gif/vins_ros2_benchmark_mh05.gif
+[0.296s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/gif/vins_ros2_mh01.gif
+[0.296s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/gif/vins_ros2_mh02.gif
+[0.296s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/gif/vins_ros2_mh05.gif
+[0.296s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/gif/vins_ros2_v101.gif
+[0.296s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/gif/vins_ros2_v201.gif
+[0.296s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/realsense/realsense_color_config.yaml
+[0.296s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/realsense/realsense_fisheye_config.yaml
+[0.296s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/realsense/realsense_zr300
+[0.297s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/tum/tum_config.yaml
+[0.297s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/vins_euroc_rviz.rviz
+[0.297s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//support_files/brief_k10L6.bin
+[0.297s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//support_files/brief_pattern.yml
+[0.297s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//support_files/image/vins.png
+[0.297s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//support_files/image/vins_black.png
+[0.297s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//support_files/paper/tro_technical_report.pdf
+[0.297s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//support_files/paper_bib.txt
+[0.297s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/ament_index/resource_index/package_run_dependencies/config_pkg
+[0.297s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/ament_index/resource_index/parent_prefix_path/config_pkg
+[0.297s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/environment/ament_prefix_path.sh
+[0.298s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/environment/ament_prefix_path.dsv
+[0.298s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/environment/path.sh
+[0.298s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/environment/path.dsv
+[0.299s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/local_setup.bash
+[0.299s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/local_setup.sh
+[0.300s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/local_setup.zsh
+[0.300s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/local_setup.dsv
+[0.300s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/package.dsv
+[0.307s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/ament_index/resource_index/packages/config_pkg
+[0.308s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/cmake/config_pkgConfig.cmake
+[0.308s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/cmake/config_pkgConfig-version.cmake
+[0.308s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/package.xml
+[2.038s] Invoked command in '/home/deva/ros2_vio_px4_ws/build/config_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --install /home/deva/ros2_vio_px4_ws/build/config_pkg

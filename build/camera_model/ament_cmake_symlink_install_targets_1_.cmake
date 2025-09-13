@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/deva/ros2_vio_px4_ws/build/camera_model/Calibration" "/home/deva/ros2_vio_px4_ws/build/camera_model/libcamera_model.a" "TARGETS" "Calibration" "camera_model" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

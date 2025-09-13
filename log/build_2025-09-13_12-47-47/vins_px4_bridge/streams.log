@@ -1,0 +1,18 @@
+[2.244s] Invoking command in '/home/deva/ros2_vio_px4_ws/build/vins_px4_bridge': PYTHONPATH=/home/deva/ros2_vio_px4_ws/build/vins_px4_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/deva/ros2_vio_px4_ws/build/vins_px4_bridge/build --no-deps symlink_data
+[2.577s] running develop
+[2.752s] running egg_info
+[2.752s] writing vins_px4_bridge.egg-info/PKG-INFO
+[2.753s] writing dependency_links to vins_px4_bridge.egg-info/dependency_links.txt
+[2.753s] writing entry points to vins_px4_bridge.egg-info/entry_points.txt
+[2.753s] writing requirements to vins_px4_bridge.egg-info/requires.txt
+[2.753s] writing top-level names to vins_px4_bridge.egg-info/top_level.txt
+[2.754s] reading manifest file 'vins_px4_bridge.egg-info/SOURCES.txt'
+[2.755s] writing manifest file 'vins_px4_bridge.egg-info/SOURCES.txt'
+[2.756s] running build_ext
+[2.756s] Creating /home/deva/ros2_vio_px4_ws/install/vins_px4_bridge/lib/python3.10/site-packages/vins-px4-bridge.egg-link (link to .)
+[2.759s] Installing drift_monitor script to /home/deva/ros2_vio_px4_ws/install/vins_px4_bridge/lib/vins_px4_bridge
+[2.759s] Installing pose_bridge script to /home/deva/ros2_vio_px4_ws/install/vins_px4_bridge/lib/vins_px4_bridge
+[2.759s] 
+[2.759s] Installed /home/deva/ros2_vio_px4_ws/build/vins_px4_bridge
+[2.760s] running symlink_data
+[2.829s] Invoked command in '/home/deva/ros2_vio_px4_ws/build/vins_px4_bridge' returned '0': PYTHONPATH=/home/deva/ros2_vio_px4_ws/build/vins_px4_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/deva/ros2_vio_px4_ws/build/vins_px4_bridge/build --no-deps symlink_data

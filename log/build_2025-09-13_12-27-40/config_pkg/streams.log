@@ -1,0 +1,85 @@
+[0.105s] Invoking command in '/home/deva/ros2_vio_px4_ws/build/config_pkg': CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake /home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/config_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/deva/ros2_vio_px4_ws/install/config_pkg
+[0.215s] -- The C compiler identification is GNU 11.4.0
+[0.281s] -- The CXX compiler identification is GNU 11.4.0
+[0.290s] -- Detecting C compiler ABI info
+[0.363s] -- Detecting C compiler ABI info - done
+[0.368s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.368s] -- Detecting C compile features
+[0.368s] -- Detecting C compile features - done
+[0.371s] -- Detecting CXX compiler ABI info
+[0.482s] -- Detecting CXX compiler ABI info - done
+[0.496s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.500s] -- Detecting CXX compile features
+[0.500s] -- Detecting CXX compile features - done
+[0.500s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.816s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.949s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.995s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.097s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.104s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.119s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.154s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.180s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.235s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.238s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.261s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.270s] -- Looking for pthread.h
+[1.386s] -- Looking for pthread.h - found
+[1.387s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.503s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.506s] -- Found Threads: TRUE  
+[1.721s] -- Configuring done
+[1.724s] -- Generating done
+[1.725s] -- Build files have been written to: /home/deva/ros2_vio_px4_ws/build/config_pkg
+[1.737s] Invoked command in '/home/deva/ros2_vio_px4_ws/build/config_pkg' returned '0': CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake /home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/config_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/deva/ros2_vio_px4_ws/install/config_pkg
+[1.739s] Invoking command in '/home/deva/ros2_vio_px4_ws/build/config_pkg': CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --build /home/deva/ros2_vio_px4_ws/build/config_pkg -- -j8 -l8
+[1.958s] Invoked command in '/home/deva/ros2_vio_px4_ws/build/config_pkg' returned '0': CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --build /home/deva/ros2_vio_px4_ws/build/config_pkg -- -j8 -l8
+[1.963s] Invoking command in '/home/deva/ros2_vio_px4_ws/build/config_pkg': CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --install /home/deva/ros2_vio_px4_ws/build/config_pkg
+[1.973s] -- Install configuration: "Release"
+[1.973s] -- Execute custom install script
+[1.973s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/3dm/3dm_config.yaml
+[1.988s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/AR_demo.rviz
+[1.999s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/ar_demo_rviz.rviz
+[2.023s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/black_box/black_box_config.yaml
+[2.046s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/cla/cla_config.yaml
+[2.060s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/euroc/euroc_config.yaml
+[2.074s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/euroc/euroc_config_no_extrinsic.yaml
+[2.093s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/extrinsic_parameter_example.pdf
+[2.107s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/fisheye_mask.jpg
+[2.118s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/fisheye_mask_752x480.jpg
+[2.130s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/gif/vins_ros2_ar_demo.gif
+[2.143s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/gif/vins_ros2_benchmark_mh01.gif
+[2.162s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/gif/vins_ros2_benchmark_mh02.gif
+[2.175s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/gif/vins_ros2_benchmark_mh05.gif
+[2.188s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/gif/vins_ros2_mh01.gif
+[2.204s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/gif/vins_ros2_mh02.gif
+[2.217s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/gif/vins_ros2_mh05.gif
+[2.231s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/gif/vins_ros2_v101.gif
+[2.244s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/gif/vins_ros2_v201.gif
+[2.260s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/realsense/realsense_color_config.yaml
+[2.275s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/realsense/realsense_fisheye_config.yaml
+[2.288s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/realsense/realsense_zr300
+[2.298s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/tum/tum_config.yaml
+[2.315s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//config/vins_euroc_rviz.rviz
+[2.328s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//support_files/brief_k10L6.bin
+[2.344s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//support_files/brief_pattern.yml
+[2.362s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//support_files/image/vins.png
+[2.378s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//support_files/image/vins_black.png
+[2.395s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//support_files/paper/tro_technical_report.pdf
+[2.411s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg//support_files/paper_bib.txt
+[2.429s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/ament_index/resource_index/package_run_dependencies/config_pkg
+[2.446s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/ament_index/resource_index/parent_prefix_path/config_pkg
+[2.466s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/environment/ament_prefix_path.sh
+[2.480s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/environment/ament_prefix_path.dsv
+[2.496s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/environment/path.sh
+[2.511s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/environment/path.dsv
+[2.526s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/local_setup.bash
+[2.544s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/local_setup.sh
+[2.559s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/local_setup.zsh
+[2.573s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/local_setup.dsv
+[2.588s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/package.dsv
+[2.606s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/ament_index/resource_index/packages/config_pkg
+[2.624s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/cmake/config_pkgConfig.cmake
+[2.632s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/cmake/config_pkgConfig-version.cmake
+[2.659s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/package.xml
+[2.680s] Invoked command in '/home/deva/ros2_vio_px4_ws/build/config_pkg' returned '0': CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --install /home/deva/ros2_vio_px4_ws/build/config_pkg

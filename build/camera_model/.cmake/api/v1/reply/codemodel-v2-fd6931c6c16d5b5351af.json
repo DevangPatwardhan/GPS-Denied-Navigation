@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-44c89270847e5dad0255.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "camera_model",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Calibration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Calibration-b57eb78816c1e1b1ac2a.json",
+					"name" : "Calibration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_model::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_model-66dc42bb2ab6ab133aba.json",
+					"name" : "camera_model",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_model_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_model_uninstall-c85f6a1fc2dacba689cc.json",
+					"name" : "camera_model_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b925ae5ea4b85c9bc637.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/deva/ros2_vio_px4_ws/build/camera_model",
+		"source" : "/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/camera_model"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,24 @@
+[0.046s] Invoking command in '/home/deva/ros2_vio_px4_ws/build/ar_demo': CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:/home/deva/ros2_vio_px4_ws/install/vins_estimator:/home/deva/ros2_vio_px4_ws/install/px4_ros_com:/home/deva/ros2_vio_px4_ws/install/px4_msgs:/home/deva/ros2_vio_px4_ws/install/pose_graph:/home/deva/ros2_vio_px4_ws/install/feature_tracker:/home/deva/ros2_vio_px4_ws/install/config_pkg:/home/deva/ros2_vio_px4_ws/install/ar_demo:/home/deva/ros2_vio_px4_ws/install/benchmark_publisher:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --build /home/deva/ros2_vio_px4_ws/build/ar_demo -- -j8 -l8
+[0.165s] [100%] Built target ar_demo_node
+[0.238s] Invoked command in '/home/deva/ros2_vio_px4_ws/build/ar_demo' returned '0': CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:/home/deva/ros2_vio_px4_ws/install/vins_estimator:/home/deva/ros2_vio_px4_ws/install/px4_ros_com:/home/deva/ros2_vio_px4_ws/install/px4_msgs:/home/deva/ros2_vio_px4_ws/install/pose_graph:/home/deva/ros2_vio_px4_ws/install/feature_tracker:/home/deva/ros2_vio_px4_ws/install/config_pkg:/home/deva/ros2_vio_px4_ws/install/ar_demo:/home/deva/ros2_vio_px4_ws/install/benchmark_publisher:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --build /home/deva/ros2_vio_px4_ws/build/ar_demo -- -j8 -l8
+[0.238s] Invoking command in '/home/deva/ros2_vio_px4_ws/build/ar_demo': CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:/home/deva/ros2_vio_px4_ws/install/vins_estimator:/home/deva/ros2_vio_px4_ws/install/px4_ros_com:/home/deva/ros2_vio_px4_ws/install/px4_msgs:/home/deva/ros2_vio_px4_ws/install/pose_graph:/home/deva/ros2_vio_px4_ws/install/feature_tracker:/home/deva/ros2_vio_px4_ws/install/config_pkg:/home/deva/ros2_vio_px4_ws/install/ar_demo:/home/deva/ros2_vio_px4_ws/install/benchmark_publisher:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --install /home/deva/ros2_vio_px4_ws/build/ar_demo
+[0.271s] -- Install configuration: "Release"
+[0.271s] -- Execute custom install script
+[0.271s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/ar_demo/lib/ar_demo/ar_demo_node
+[0.271s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/ar_demo/share/ar_demo/launch/3dm_bag.launch.py
+[0.271s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/ar_demo/share/ament_index/resource_index/package_run_dependencies/ar_demo
+[0.271s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/ar_demo/share/ament_index/resource_index/parent_prefix_path/ar_demo
+[0.271s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/ar_demo/share/ar_demo/environment/ament_prefix_path.sh
+[0.271s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/ar_demo/share/ar_demo/environment/ament_prefix_path.dsv
+[0.271s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/ar_demo/share/ar_demo/environment/path.sh
+[0.271s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/ar_demo/share/ar_demo/environment/path.dsv
+[0.271s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/ar_demo/share/ar_demo/local_setup.bash
+[0.272s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/ar_demo/share/ar_demo/local_setup.sh
+[0.272s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/ar_demo/share/ar_demo/local_setup.zsh
+[0.272s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/ar_demo/share/ar_demo/local_setup.dsv
+[0.272s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/ar_demo/share/ar_demo/package.dsv
+[0.303s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/ar_demo/share/ament_index/resource_index/packages/ar_demo
+[0.304s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/ar_demo/share/ar_demo/cmake/ar_demoConfig.cmake
+[0.304s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/ar_demo/share/ar_demo/cmake/ar_demoConfig-version.cmake
+[0.304s] -- Up-to-date symlink: /home/deva/ros2_vio_px4_ws/install/ar_demo/share/ar_demo/package.xml
+[0.307s] Invoked command in '/home/deva/ros2_vio_px4_ws/build/ar_demo' returned '0': CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:/home/deva/ros2_vio_px4_ws/install/vins_estimator:/home/deva/ros2_vio_px4_ws/install/px4_ros_com:/home/deva/ros2_vio_px4_ws/install/px4_msgs:/home/deva/ros2_vio_px4_ws/install/pose_graph:/home/deva/ros2_vio_px4_ws/install/feature_tracker:/home/deva/ros2_vio_px4_ws/install/config_pkg:/home/deva/ros2_vio_px4_ws/install/ar_demo:/home/deva/ros2_vio_px4_ws/install/benchmark_publisher:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --install /home/deva/ros2_vio_px4_ws/build/ar_demo

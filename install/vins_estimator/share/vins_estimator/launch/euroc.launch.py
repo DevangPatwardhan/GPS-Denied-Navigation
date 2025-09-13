@@ -1,0 +1,1 @@
+/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/vins_estimator/launch/euroc.launch.py

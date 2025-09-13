@@ -1,0 +1,1 @@
+/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/camera_model/include/camodocal/gpl/EigenQuaternionParameterization.h

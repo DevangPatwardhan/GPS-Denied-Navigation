@@ -1,0 +1,237 @@
+[0.058s] Invoking command in '/home/deva/ros2_vio_px4_ws/build/pose_graph': AMENT_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/deva/ros2_vio_px4_ws/install/camera_model/bin:${PATH} /usr/bin/cmake /home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/deva/ros2_vio_px4_ws/install/pose_graph
+[0.222s] -- The C compiler identification is GNU 11.4.0
+[0.329s] -- The CXX compiler identification is GNU 11.4.0
+[0.348s] -- Detecting C compiler ABI info
+[0.560s] -- Detecting C compiler ABI info - done
+[0.568s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.568s] -- Detecting C compile features
+[0.569s] -- Detecting C compile features - done
+[0.573s] -- Detecting CXX compiler ABI info
+[0.698s] -- Detecting CXX compiler ABI info - done
+[0.707s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.707s] -- Detecting CXX compile features
+[0.707s] -- Detecting CXX compile features - done
+[0.710s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.988s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.109s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.148s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.199s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.205s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.215s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.230s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.248s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.291s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.293s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.318s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.331s] -- Looking for pthread.h
+[1.452s] -- Looking for pthread.h - found
+[1.452s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.563s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.564s] -- Found Threads: TRUE  
+[1.637s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.679s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.707s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.743s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.761s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[1.778s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.885s] -- Found camera_model: 0.0.0 (/home/deva/ros2_vio_px4_ws/install/camera_model/share/camera_model/cmake)
+[1.888s] -- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)
+[1.916s] -- Found OpenCV: /usr (found suitable version "4.5.4", minimum required is "4") 
+[1.933s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[1.935s] -- Found required Ceres dependency: glog
+[1.935s] -- Found required Ceres dependency: gflags
+[1.935s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[2.098s] -- Configuring done
+[2.136s] -- Generating done
+[2.144s] -- Build files have been written to: /home/deva/ros2_vio_px4_ws/build/pose_graph
+[2.170s] Invoked command in '/home/deva/ros2_vio_px4_ws/build/pose_graph' returned '0': AMENT_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/deva/ros2_vio_px4_ws/install/camera_model/bin:${PATH} /usr/bin/cmake /home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/deva/ros2_vio_px4_ws/install/pose_graph
+[2.171s] Invoking command in '/home/deva/ros2_vio_px4_ws/build/pose_graph': AMENT_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/deva/ros2_vio_px4_ws/install/camera_model/bin:${PATH} /usr/bin/cmake --build /home/deva/ros2_vio_px4_ws/build/pose_graph -- -j8 -l8
+[2.246s] [  7%] [32mBuilding CXX object CMakeFiles/pose_graph.dir/src/pose_graph.cpp.o[0m
+[2.254s] [ 14%] [32mBuilding CXX object CMakeFiles/pose_graph.dir/src/keyframe.cpp.o[0m
+[2.265s] [ 21%] [32mBuilding CXX object CMakeFiles/pose_graph.dir/src/pose_graph_node.cpp.o[0m
+[2.266s] [ 28%] [32mBuilding CXX object CMakeFiles/pose_graph.dir/src/utility/CameraPoseVisualization.cpp.o[0m
+[2.269s] [ 35%] [32mBuilding CXX object CMakeFiles/pose_graph.dir/src/ThirdParty/DBoW/BowVector.cpp.o[0m
+[2.273s] [ 42%] [32mBuilding CXX object CMakeFiles/pose_graph.dir/src/ThirdParty/DBoW/QueryResults.cpp.o[0m
+[2.286s] [ 50%] [32mBuilding CXX object CMakeFiles/pose_graph.dir/src/ThirdParty/DBoW/FBrief.cpp.o[0m
+[2.287s] [ 57%] [32mBuilding CXX object CMakeFiles/pose_graph.dir/src/ThirdParty/DBoW/FeatureVector.cpp.o[0m
+[4.565s] [ 64%] [32mBuilding CXX object CMakeFiles/pose_graph.dir/src/ThirdParty/DUtils/Random.cpp.o[0m
+[4.565s] [ 71%] [32mBuilding CXX object CMakeFiles/pose_graph.dir/src/ThirdParty/DBoW/ScoringObject.cpp.o[0m
+[6.547s] [ 78%] [32mBuilding CXX object CMakeFiles/pose_graph.dir/src/ThirdParty/DUtils/Timestamp.cpp.o[0m
+[6.784s] [ 85%] [32mBuilding CXX object CMakeFiles/pose_graph.dir/src/ThirdParty/DVision/BRIEF.cpp.o[0m
+[14.945s] In file included from [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/keyframe.h:11[m[K,
+[14.945s]                  from [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/keyframe.cpp:1[m[K:
+[14.945s] [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/utility/utility.h:143:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[14.945s]   143 |     }[01;35m[K;[m[K
+[14.945s]       |      [01;35m[K^[m[K
+[14.945s]       |      [31m[K-[m[K
+[17.144s] In file included from [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/keyframe.h:11[m[K,
+[17.144s]                  from [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph.h:17[m[K,
+[17.144s]                  from [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph.cpp:1[m[K:
+[17.144s] [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/utility/utility.h:143:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[17.144s]   143 |     }[01;35m[K;[m[K
+[17.144s]       |      [01;35m[K^[m[K
+[17.144s]       |      [31m[K-[m[K
+[18.217s] [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph.cpp:[m[K In member function ‘[01m[Kint PoseGraph::detectLoop(KeyFrame*, int)[m[K’:
+[18.217s] [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph.cpp:378:47:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[KDBoW2::EntryId[m[K’ {aka ‘[01m[Kunsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[18.217s]   378 |             if (min_index == -1 || (ret[i].Id < min_index && ret[i].Score > 0.015))
+[18.217s] [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph.cpp:[m[K In member function ‘[01m[Kvoid PoseGraph::optimize4DoF()[m[K’:
+[18.217s] [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph.cpp:427:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kt_array[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[18.217s]   427 |             double [01;35m[Kt_array[m[K[max_length][3];
+[18.227s]       |                    [01;35m[K^~~~~~~[m[K
+[18.227s] [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph.cpp:428:25:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kq_array[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[18.227s]   428 |             Quaterniond [01;35m[Kq_array[m[K[max_length];
+[18.227s]       |                         [01;35m[K^~~~~~~[m[K
+[18.231s] [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph.cpp:429:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Keuler_array[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[18.231s]   429 |             double [01;35m[Keuler_array[m[K[max_length][3];
+[18.231s]       |                    [01;35m[K^~~~~~~~~~~[m[K
+[18.231s] [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph.cpp:430:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Ksequence_array[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[18.231s]   430 |             double [01;35m[Ksequence_array[m[K[max_length];
+[18.232s]       |                    [01;35m[K^~~~~~~~~~~~~~[m[K
+[18.492s] In file included from [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/keyframe.h:11[m[K,
+[18.492s]                  from [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph_node.cpp:19[m[K:
+[18.493s] [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/utility/utility.h:143:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[18.493s]   143 |     }[01;35m[K;[m[K
+[18.493s]       |      [01;35m[K^[m[K
+[18.493s]       |      [31m[K-[m[K
+[19.066s] In file included from [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/ThirdParty/DBoW/DBoW2.h:63[m[K,
+[19.066s]                  from [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/keyframe.h:13[m[K,
+[19.066s]                  from [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph.h:17[m[K,
+[19.066s]                  from [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph.cpp:1[m[K:
+[19.066s] /home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/ThirdParty/DBoW/TemplatedVocabulary.h: In instantiation of ‘[01m[Kvoid DBoW2::TemplatedVocabulary<TDescriptor, F>::loadBin(const string&) [with TDescriptor = boost::dynamic_bitset<>; F = DBoW2::FBrief; std::string = std::__cxx11::basic_string<char>][m[K’:
+[19.066s] [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/ThirdParty/DBoW/TemplatedVocabulary.h:439:5:[m[K   required from ‘[01m[KDBoW2::TemplatedVocabulary<TDescriptor, F>::TemplatedVocabulary(const string&) [with TDescriptor = boost::dynamic_bitset<>; F = DBoW2::FBrief; std::string = std::__cxx11::basic_string<char>][m[K’
+[19.066s] [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph.cpp:38:39:[m[K   required from here
+[19.066s] [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/ThirdParty/DBoW/TemplatedVocabulary.h:1529:29:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint32_t[m[K’ {aka ‘[01m[Kint[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[19.066s]  1529 |   for(unsigned int i = 0; [01;35m[Ki < voc.nNodes[m[K; ++i)
+[19.068s]       |                           [01;35m[K~~^~~~~~~~~~~~[m[K
+[19.068s] [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/ThirdParty/DBoW/TemplatedVocabulary.h:1553:29:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint32_t[m[K’ {aka ‘[01m[Kint[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[19.068s]  1553 |   for(unsigned int i = 0; [01;35m[Ki < voc.nWords[m[K; ++i)
+[19.068s]       |                           [01;35m[K~~^~~~~~~~~~~~[m[K
+[19.452s] [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph_node.cpp:27:32:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[19.452s]    27 | queue<sensor_msgs::msg::Image::[01;35m[KConstPtr[m[K> image_buf;
+[19.452s]       |                                [01;35m[K^~~~~~~~[m[K
+[19.452s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[19.452s]                  from [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph_node.cpp:6[m[K:
+[19.452s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:173:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[19.452s]   173 |     [01;36m[KConstPtr[m[K;
+[19.452s]       |     [01;36m[K^~~~~~~~[m[K
+[19.466s] [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph_node.cpp:28:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::PointCloud_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[19.467s]    28 | queue<sensor_msgs::msg::PointCloud::[01;35m[KConstPtr[m[K> point_buf;
+[19.467s]       |                                     [01;35m[K^~~~~~~~[m[K
+[19.467s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud.hpp:7[m[K,
+[19.467s]                  from [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph_node.cpp:5[m[K:
+[19.467s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__struct.hpp:124:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[19.467s]   124 |     [01;36m[KConstPtr[m[K;
+[19.467s]       |     [01;36m[K^~~~~~~~[m[K
+[19.484s] [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph_node.cpp:29:32:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[19.484s]    29 | queue<nav_msgs::msg::Odometry::[01;35m[KConstPtr[m[K> pose_buf;
+[19.484s]       |                                [01;35m[K^~~~~~~~[m[K
+[19.485s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[19.488s]                  from [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph_node.cpp:3[m[K:
+[19.488s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:146:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[19.488s]   146 |     [01;36m[KConstPtr[m[K;
+[19.488s]       |     [01;36m[K^~~~~~~~[m[K
+[19.549s] [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph_node.cpp:92:70:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[19.554s]    92 | void image_callback(const sensor_msgs::msg::Image::ConstPtr image_msg[01;35m[K)[m[K
+[19.554s]       |                                                                      [01;35m[K^[m[K
+[19.554s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[19.554s]                  from [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph_node.cpp:6[m[K:
+[19.554s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:173:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[19.554s]   173 |     [01;36m[KConstPtr[m[K;
+[19.555s]       |     [01;36m[K^~~~~~~~[m[K
+[19.563s] [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph_node.cpp:113:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::PointCloud_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[19.568s]   113 | void point_callback(const sensor_msgs::msg::PointCloud::ConstPtr point_msg[01;35m[K)[m[K
+[19.568s]       |                                                                           [01;35m[K^[m[K
+[19.568s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud.hpp:7[m[K,
+[19.568s]                  from [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph_node.cpp:5[m[K:
+[19.568s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__struct.hpp:124:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[19.569s]   124 |     [01;36m[KConstPtr[m[K;
+[19.569s]       |     [01;36m[K^~~~~~~~[m[K
+[19.575s] [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph_node.cpp:133:68:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[19.576s]   133 | void pose_callback(const nav_msgs::msg::Odometry::ConstPtr pose_msg[01;35m[K)[m[K
+[19.576s]       |                                                                    [01;35m[K^[m[K
+[19.576s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[19.576s]                  from [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph_node.cpp:3[m[K:
+[19.576s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:146:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[19.576s]   146 |     [01;36m[KConstPtr[m[K;
+[19.578s]       |     [01;36m[K^~~~~~~~[m[K
+[19.587s] [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph_node.cpp:152:78:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[19.587s]   152 | void imu_forward_callback(const nav_msgs::msg::Odometry::ConstPtr forward_msg[01;35m[K)[m[K
+[19.587s]       |                                                                              [01;35m[K^[m[K
+[19.587s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[19.587s]                  from [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph_node.cpp:3[m[K:
+[19.587s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:146:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[19.587s]   146 |     [01;36m[KConstPtr[m[K;
+[19.587s]       |     [01;36m[K^~~~~~~~[m[K
+[19.914s] [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph_node.cpp:179:82:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[19.914s]   179 | void relo_relative_pose_callback(const nav_msgs::msg::Odometry::ConstPtr pose_msg[01;35m[K)[m[K
+[19.914s]       |                                                                                  [01;35m[K^[m[K
+[19.914s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[19.914s]                  from [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph_node.cpp:3[m[K:
+[19.915s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:146:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[19.915s]   146 |     [01;36m[KConstPtr[m[K;
+[19.915s]       |     [01;36m[K^~~~~~~~[m[K
+[19.917s] [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph_node.cpp:200:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[19.920s]   200 | void vio_callback(const nav_msgs::msg::Odometry::ConstPtr pose_msg[01;35m[K)[m[K
+[19.921s]       |                                                                   [01;35m[K^[m[K
+[19.921s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[19.921s]                  from [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph_node.cpp:3[m[K:
+[19.921s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:146:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[19.921s]   146 |     [01;36m[KConstPtr[m[K;
+[19.921s]       |     [01;36m[K^~~~~~~~[m[K
+[19.931s] [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph_node.cpp:280:73:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[19.932s]   280 | void extrinsic_callback(const nav_msgs::msg::Odometry::ConstPtr pose_msg[01;35m[K)[m[K
+[19.932s]       |                                                                         [01;35m[K^[m[K
+[19.932s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[19.932s]                  from [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph_node.cpp:3[m[K:
+[19.932s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:146:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[19.932s]   146 |     [01;36m[KConstPtr[m[K;
+[19.932s]       |     [01;36m[K^~~~~~~~[m[K
+[19.933s] [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph_node.cpp:[m[K In function ‘[01m[Kvoid process()[m[K’:
+[19.933s] [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph_node.cpp:299:43:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[19.933s]   299 |         sensor_msgs::msg::Image::ConstPtr [01;35m[Kimage_msg[m[K = NULL;
+[19.933s]       |                                           [01;35m[K^~~~~~~~~[m[K
+[19.938s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[19.938s]                  from [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph_node.cpp:6[m[K:
+[19.938s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:173:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[19.938s]   173 |     [01;36m[KConstPtr[m[K;
+[19.938s]       |     [01;36m[K^~~~~~~~[m[K
+[19.939s] [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph_node.cpp:300:48:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::PointCloud_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[19.939s]   300 |         sensor_msgs::msg::PointCloud::ConstPtr [01;35m[Kpoint_msg[m[K = NULL;
+[19.939s]       |                                                [01;35m[K^~~~~~~~~[m[K
+[19.939s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud.hpp:7[m[K,
+[19.939s]                  from [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph_node.cpp:5[m[K:
+[19.939s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__struct.hpp:124:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[19.939s]   124 |     [01;36m[KConstPtr[m[K;
+[19.939s]       |     [01;36m[K^~~~~~~~[m[K
+[19.939s] [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph_node.cpp:301:43:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[19.939s]   301 |         nav_msgs::msg::Odometry::ConstPtr [01;35m[Kpose_msg[m[K = NULL;
+[19.940s]       |                                           [01;35m[K^~~~~~~~[m[K
+[19.940s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[19.940s]                  from [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph/src/pose_graph_node.cpp:3[m[K:
+[19.940s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:146:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[19.940s]   146 |     [01;36m[KConstPtr[m[K;
+[19.940s]       |     [01;36m[K^~~~~~~~[m[K
+[52.965s] [ 92%] [32mBuilding CXX object CMakeFiles/pose_graph.dir/src/ThirdParty/VocabularyBinary.cpp.o[0m
+[53.822s] [100%] [32m[1mLinking CXX executable pose_graph[0m
+[55.509s] [100%] Built target pose_graph
+[55.521s] Invoked command in '/home/deva/ros2_vio_px4_ws/build/pose_graph' returned '0': AMENT_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/deva/ros2_vio_px4_ws/install/camera_model/bin:${PATH} /usr/bin/cmake --build /home/deva/ros2_vio_px4_ws/build/pose_graph -- -j8 -l8
+[55.522s] Invoking command in '/home/deva/ros2_vio_px4_ws/build/pose_graph': AMENT_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/deva/ros2_vio_px4_ws/install/camera_model/bin:${PATH} /usr/bin/cmake --install /home/deva/ros2_vio_px4_ws/build/pose_graph
+[55.531s] -- Install configuration: "Release"
+[55.531s] -- Execute custom install script
+[55.531s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/pose_graph/lib/pose_graph/pose_graph
+[55.538s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/pose_graph/share/ament_index/resource_index/package_run_dependencies/pose_graph
+[55.547s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/pose_graph/share/ament_index/resource_index/parent_prefix_path/pose_graph
+[55.554s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/pose_graph/share/pose_graph/environment/ament_prefix_path.sh
+[55.564s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/pose_graph/share/pose_graph/environment/ament_prefix_path.dsv
+[55.570s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/pose_graph/share/pose_graph/environment/path.sh
+[55.578s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/pose_graph/share/pose_graph/environment/path.dsv
+[55.585s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/pose_graph/share/pose_graph/local_setup.bash
+[55.594s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/pose_graph/share/pose_graph/local_setup.sh
+[55.601s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/pose_graph/share/pose_graph/local_setup.zsh
+[55.607s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/pose_graph/share/pose_graph/local_setup.dsv
+[55.616s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/pose_graph/share/pose_graph/package.dsv
+[55.625s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/pose_graph/share/ament_index/resource_index/packages/pose_graph
+[55.632s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/pose_graph/share/pose_graph/cmake/pose_graphConfig.cmake
+[55.641s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/pose_graph/share/pose_graph/cmake/pose_graphConfig-version.cmake
+[55.647s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/pose_graph/share/pose_graph/package.xml
+[55.657s] Invoked command in '/home/deva/ros2_vio_px4_ws/build/pose_graph' returned '0': AMENT_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/deva/ros2_vio_px4_ws/install/camera_model/bin:${PATH} /usr/bin/cmake --install /home/deva/ros2_vio_px4_ws/build/pose_graph

@@ -1,0 +1,75 @@
+[0.070s] Invoking command in '/home/deva/ros2_vio_px4_ws/build/feature_tracker': AMENT_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/deva/ros2_vio_px4_ws/install/camera_model/bin:${PATH} /usr/bin/cmake /home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/feature_tracker -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/deva/ros2_vio_px4_ws/install/feature_tracker
+[0.230s] -- The C compiler identification is GNU 11.4.0
+[0.359s] -- The CXX compiler identification is GNU 11.4.0
+[0.364s] -- Detecting C compiler ABI info
+[0.586s] -- Detecting C compiler ABI info - done
+[0.593s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.594s] -- Detecting C compile features
+[0.594s] -- Detecting C compile features - done
+[0.598s] -- Detecting CXX compiler ABI info
+[0.718s] -- Detecting CXX compiler ABI info - done
+[0.725s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.725s] -- Detecting CXX compile features
+[0.725s] -- Detecting CXX compile features - done
+[0.728s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.953s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.058s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.091s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.146s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.159s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.169s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.185s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.202s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.245s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.245s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.267s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.276s] -- Looking for pthread.h
+[1.389s] -- Looking for pthread.h - found
+[1.389s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.520s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.521s] -- Found Threads: TRUE  
+[1.599s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.637s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.653s] -- Found camera_model: 0.0.0 (/home/deva/ros2_vio_px4_ws/install/camera_model/share/camera_model/cmake)
+[1.656s] -- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)
+[1.700s] -- Found OpenCV: /usr (found suitable version "4.5.4", minimum required is "4") 
+[1.873s] -- Configuring done
+[1.898s] -- Generating done
+[1.905s] -- Build files have been written to: /home/deva/ros2_vio_px4_ws/build/feature_tracker
+[1.924s] Invoked command in '/home/deva/ros2_vio_px4_ws/build/feature_tracker' returned '0': AMENT_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/deva/ros2_vio_px4_ws/install/camera_model/bin:${PATH} /usr/bin/cmake /home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/feature_tracker -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/deva/ros2_vio_px4_ws/install/feature_tracker
+[1.931s] Invoking command in '/home/deva/ros2_vio_px4_ws/build/feature_tracker': AMENT_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/deva/ros2_vio_px4_ws/install/camera_model/bin:${PATH} /usr/bin/cmake --build /home/deva/ros2_vio_px4_ws/build/feature_tracker -- -j8 -l8
+[2.001s] [ 25%] [32mBuilding CXX object CMakeFiles/feature_tracker.dir/src/feature_tracker.cpp.o[0m
+[2.001s] [ 50%] [32mBuilding CXX object CMakeFiles/feature_tracker.dir/src/parameters.cpp.o[0m
+[2.002s] [ 75%] [32mBuilding CXX object CMakeFiles/feature_tracker.dir/src/feature_tracker_node.cpp.o[0m
+[18.652s] [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/feature_tracker/src/feature_tracker_node.cpp:16:32:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[18.652s]    16 | queue<sensor_msgs::msg::Image::[01;35m[KConstPtr[m[K> img_buf;
+[18.652s]       |                                [01;35m[K^~~~~~~~[m[K
+[18.652s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[18.652s]                  from [01m[K/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/feature_tracker/src/feature_tracker_node.cpp:3[m[K:
+[18.652s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:173:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[18.652s]   173 |     [01;36m[KConstPtr[m[K;
+[18.652s]       |     [01;36m[K^~~~~~~~[m[K
+[40.013s] [100%] [32m[1mLinking CXX executable feature_tracker[0m
+[42.273s] [100%] Built target feature_tracker
+[42.289s] Invoked command in '/home/deva/ros2_vio_px4_ws/build/feature_tracker' returned '0': AMENT_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/deva/ros2_vio_px4_ws/install/camera_model/bin:${PATH} /usr/bin/cmake --build /home/deva/ros2_vio_px4_ws/build/feature_tracker -- -j8 -l8
+[42.290s] Invoking command in '/home/deva/ros2_vio_px4_ws/build/feature_tracker': AMENT_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/deva/ros2_vio_px4_ws/install/camera_model/bin:${PATH} /usr/bin/cmake --install /home/deva/ros2_vio_px4_ws/build/feature_tracker
+[42.305s] -- Install configuration: "Release"
+[42.306s] -- Execute custom install script
+[42.306s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/feature_tracker/lib/feature_tracker/feature_tracker
+[42.321s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/feature_tracker/share/feature_tracker/launch/vins_feature_tracker.launch.py
+[42.335s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/feature_tracker/share/ament_index/resource_index/package_run_dependencies/feature_tracker
+[42.351s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/feature_tracker/share/ament_index/resource_index/parent_prefix_path/feature_tracker
+[42.363s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/feature_tracker/share/feature_tracker/environment/ament_prefix_path.sh
+[42.379s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/feature_tracker/share/feature_tracker/environment/ament_prefix_path.dsv
+[42.392s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/feature_tracker/share/feature_tracker/environment/path.sh
+[42.405s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/feature_tracker/share/feature_tracker/environment/path.dsv
+[42.418s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/feature_tracker/share/feature_tracker/local_setup.bash
+[42.432s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/feature_tracker/share/feature_tracker/local_setup.sh
+[42.445s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/feature_tracker/share/feature_tracker/local_setup.zsh
+[42.459s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/feature_tracker/share/feature_tracker/local_setup.dsv
+[42.470s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/feature_tracker/share/feature_tracker/package.dsv
+[42.479s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/feature_tracker/share/ament_index/resource_index/packages/feature_tracker
+[42.496s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/feature_tracker/share/feature_tracker/cmake/feature_trackerConfig.cmake
+[42.511s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/feature_tracker/share/feature_tracker/cmake/feature_trackerConfig-version.cmake
+[42.529s] -- Symlinking: /home/deva/ros2_vio_px4_ws/install/feature_tracker/share/feature_tracker/package.xml
+[42.543s] Invoked command in '/home/deva/ros2_vio_px4_ws/build/feature_tracker' returned '0': AMENT_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model/lib:${LD_LIBRARY_PATH} PATH=/home/deva/ros2_vio_px4_ws/install/camera_model/bin:${PATH} /usr/bin/cmake --install /home/deva/ros2_vio_px4_ws/build/feature_tracker

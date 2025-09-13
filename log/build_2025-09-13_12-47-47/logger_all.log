@@ -1,0 +1,765 @@
+[0.089s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.089s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x727056698cd0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x727056698640>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x727056698640>>, mixin_verb=('build',))
+[0.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.225s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/deva/ros2_vio_px4_ws'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(output) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(output) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(output) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(output) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(output) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(output) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(output) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(output) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(output) by extension 'ros'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(output) by extensions ['cmake', 'python']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(output) by extension 'cmake'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(output) by extension 'python'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(output) by extensions ['python_setup_py']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(output) by extension 'python_setup_py'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2) by extension 'ros'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2) by extensions ['cmake', 'python']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2) by extension 'cmake'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2) by extension 'python'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2) by extensions ['python_setup_py']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2) by extension 'python_setup_py'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/ar_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/ar_demo) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/ar_demo) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/ar_demo) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/ar_demo) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/ar_demo) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/ar_demo) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/ar_demo) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/ar_demo) by extension 'ros'
+[0.261s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VINS-MONO-ROS2/ar_demo' with type 'ros.ament_cmake' and name 'ar_demo'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/benchmark_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/benchmark_publisher) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/benchmark_publisher) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/benchmark_publisher) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/benchmark_publisher) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/benchmark_publisher) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/benchmark_publisher) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/benchmark_publisher) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/benchmark_publisher) by extension 'ros'
+[0.263s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VINS-MONO-ROS2/benchmark_publisher' with type 'ros.ament_cmake' and name 'benchmark_publisher'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/camera_model) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/camera_model) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/camera_model) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/camera_model) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/camera_model) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/camera_model) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/camera_model) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/camera_model) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/camera_model) by extension 'ros'
+[0.264s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VINS-MONO-ROS2/camera_model' with type 'ros.ament_cmake' and name 'camera_model'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/config_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/config_pkg) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/config_pkg) by extension 'ignore_ament_install'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/config_pkg) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/config_pkg) by extension 'colcon_pkg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/config_pkg) by extensions ['colcon_meta']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/config_pkg) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/config_pkg) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/config_pkg) by extension 'ros'
+[0.265s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VINS-MONO-ROS2/config_pkg' with type 'ros.ament_cmake' and name 'config_pkg'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/feature_tracker) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/feature_tracker) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/feature_tracker) by extension 'ignore_ament_install'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/feature_tracker) by extensions ['colcon_pkg']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/feature_tracker) by extension 'colcon_pkg'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/feature_tracker) by extensions ['colcon_meta']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/feature_tracker) by extension 'colcon_meta'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/feature_tracker) by extensions ['ros']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/feature_tracker) by extension 'ros'
+[0.266s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VINS-MONO-ROS2/feature_tracker' with type 'ros.ament_cmake' and name 'feature_tracker'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/pose_graph) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/pose_graph) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/pose_graph) by extension 'ignore_ament_install'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/pose_graph) by extensions ['colcon_pkg']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/pose_graph) by extension 'colcon_pkg'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/pose_graph) by extensions ['colcon_meta']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/pose_graph) by extension 'colcon_meta'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/pose_graph) by extensions ['ros']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/pose_graph) by extension 'ros'
+[0.267s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VINS-MONO-ROS2/pose_graph' with type 'ros.ament_cmake' and name 'pose_graph'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/vins_estimator) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/vins_estimator) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/vins_estimator) by extension 'ignore_ament_install'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/vins_estimator) by extensions ['colcon_pkg']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/vins_estimator) by extension 'colcon_pkg'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/vins_estimator) by extensions ['colcon_meta']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/vins_estimator) by extension 'colcon_meta'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/vins_estimator) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/VINS-MONO-ROS2/vins_estimator) by extension 'ros'
+[0.268s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VINS-MONO-ROS2/vins_estimator' with type 'ros.ament_cmake' and name 'vins_estimator'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_pkg']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_pkg'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_meta']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_meta'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ros']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ros'
+[0.269s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore_ament_install'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_pkg']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_meta']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_meta'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ros']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ros'
+[0.270s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_ros_com' with type 'ros.ament_cmake' and name 'px4_ros_com'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/vins_px4_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/vins_px4_bridge) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/vins_px4_bridge) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/vins_px4_bridge) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/vins_px4_bridge) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/vins_px4_bridge) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/vins_px4_bridge) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/vins_px4_bridge) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/vins_px4_bridge) by extension 'ros'
+[0.271s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vins_px4_bridge' with type 'ros.ament_python' and name 'vins_px4_bridge'
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.291s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/deva/ros2_vio_px4_ws/install
+[0.292s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 356 installed packages in /opt/ros/humble
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'benchmark_publisher' build argument 'cmake_args' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'benchmark_publisher' build argument 'cmake_target' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'benchmark_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'benchmark_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'benchmark_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'benchmark_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'benchmark_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'benchmark_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'benchmark_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.325s] DEBUG:colcon.colcon_core.verb:Building package 'benchmark_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/deva/ros2_vio_px4_ws/build/benchmark_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/deva/ros2_vio_px4_ws/install/benchmark_publisher', 'merge_install': False, 'path': '/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/benchmark_publisher', 'symlink_install': True, 'test_result_base': None}
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'camera_model' build argument 'cmake_args' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'camera_model' build argument 'cmake_target' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'camera_model' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'camera_model' build argument 'cmake_clean_cache' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'camera_model' build argument 'cmake_clean_first' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'camera_model' build argument 'cmake_force_configure' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'camera_model' build argument 'ament_cmake_args' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'camera_model' build argument 'catkin_cmake_args' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'camera_model' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.325s] DEBUG:colcon.colcon_core.verb:Building package 'camera_model' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/deva/ros2_vio_px4_ws/build/camera_model', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/deva/ros2_vio_px4_ws/install/camera_model', 'merge_install': False, 'path': '/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/camera_model', 'symlink_install': True, 'test_result_base': None}
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'config_pkg' build argument 'cmake_args' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'config_pkg' build argument 'cmake_target' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'config_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'config_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'config_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'config_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'config_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'config_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'config_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.326s] DEBUG:colcon.colcon_core.verb:Building package 'config_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/deva/ros2_vio_px4_ws/build/config_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/deva/ros2_vio_px4_ws/install/config_pkg', 'merge_install': False, 'path': '/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/config_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.326s] DEBUG:colcon.colcon_core.verb:Building package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/deva/ros2_vio_px4_ws/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/deva/ros2_vio_px4_ws/install/px4_msgs', 'merge_install': False, 'path': '/home/deva/ros2_vio_px4_ws/src/px4_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'vins_px4_bridge' build argument 'cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'vins_px4_bridge' build argument 'cmake_target' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'vins_px4_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'vins_px4_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'vins_px4_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'vins_px4_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'vins_px4_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'vins_px4_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'vins_px4_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.326s] DEBUG:colcon.colcon_core.verb:Building package 'vins_px4_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/deva/ros2_vio_px4_ws/build/vins_px4_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge', 'merge_install': False, 'path': '/home/deva/ros2_vio_px4_ws/src/vins_px4_bridge', 'symlink_install': True, 'test_result_base': None}
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'ar_demo' build argument 'cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'ar_demo' build argument 'cmake_target' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'ar_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'ar_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'ar_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'ar_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'ar_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'ar_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'ar_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.327s] DEBUG:colcon.colcon_core.verb:Building package 'ar_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/deva/ros2_vio_px4_ws/build/ar_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/deva/ros2_vio_px4_ws/install/ar_demo', 'merge_install': False, 'path': '/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/ar_demo', 'symlink_install': True, 'test_result_base': None}
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'feature_tracker' build argument 'cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'feature_tracker' build argument 'cmake_target' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'feature_tracker' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'feature_tracker' build argument 'cmake_clean_cache' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'feature_tracker' build argument 'cmake_clean_first' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'feature_tracker' build argument 'cmake_force_configure' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'feature_tracker' build argument 'ament_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'feature_tracker' build argument 'catkin_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'feature_tracker' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.327s] DEBUG:colcon.colcon_core.verb:Building package 'feature_tracker' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/deva/ros2_vio_px4_ws/build/feature_tracker', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/deva/ros2_vio_px4_ws/install/feature_tracker', 'merge_install': False, 'path': '/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/feature_tracker', 'symlink_install': True, 'test_result_base': None}
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'pose_graph' build argument 'cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'pose_graph' build argument 'cmake_target' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'pose_graph' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'pose_graph' build argument 'cmake_clean_cache' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'pose_graph' build argument 'cmake_clean_first' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'pose_graph' build argument 'cmake_force_configure' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'pose_graph' build argument 'ament_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'pose_graph' build argument 'catkin_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'pose_graph' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.327s] DEBUG:colcon.colcon_core.verb:Building package 'pose_graph' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/deva/ros2_vio_px4_ws/build/pose_graph', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/deva/ros2_vio_px4_ws/install/pose_graph', 'merge_install': False, 'path': '/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph', 'symlink_install': True, 'test_result_base': None}
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_cache' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_first' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_force_configure' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'ament_cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.328s] DEBUG:colcon.colcon_core.verb:Building package 'px4_ros_com' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/deva/ros2_vio_px4_ws/build/px4_ros_com', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/deva/ros2_vio_px4_ws/install/px4_ros_com', 'merge_install': False, 'path': '/home/deva/ros2_vio_px4_ws/src/px4_ros_com', 'symlink_install': True, 'test_result_base': None}
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'vins_estimator' build argument 'cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'vins_estimator' build argument 'cmake_target' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'vins_estimator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'vins_estimator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'vins_estimator' build argument 'cmake_clean_first' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'vins_estimator' build argument 'cmake_force_configure' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'vins_estimator' build argument 'ament_cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'vins_estimator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'vins_estimator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.328s] DEBUG:colcon.colcon_core.verb:Building package 'vins_estimator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/deva/ros2_vio_px4_ws/build/vins_estimator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/deva/ros2_vio_px4_ws/install/vins_estimator', 'merge_install': False, 'path': '/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/vins_estimator', 'symlink_install': True, 'test_result_base': None}
+[0.328s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.329s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.329s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/camera_model' with build type 'ament_cmake'
+[0.330s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/camera_model'
+[0.331s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.331s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.331s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.334s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/deva/ros2_vio_px4_ws/src/px4_msgs' with build type 'ament_cmake'
+[0.334s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/deva/ros2_vio_px4_ws/src/px4_msgs'
+[0.334s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.334s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.338s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/benchmark_publisher' with build type 'ament_cmake'
+[0.338s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/benchmark_publisher'
+[0.339s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.339s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.341s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/config_pkg' with build type 'ament_cmake'
+[0.342s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/config_pkg'
+[0.342s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.342s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.346s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/deva/ros2_vio_px4_ws/src/vins_px4_bridge' with build type 'ament_python'
+[0.346s] Level 1:colcon.colcon_core.shell:create_environment_hook('vins_px4_bridge', 'ament_prefix_path')
+[0.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge/share/vins_px4_bridge/hook/ament_prefix_path.ps1'
+[0.347s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge/share/vins_px4_bridge/hook/ament_prefix_path.dsv'
+[0.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge/share/vins_px4_bridge/hook/ament_prefix_path.sh'
+[0.349s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.349s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deva/ros2_vio_px4_ws/build/camera_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --build /home/deva/ros2_vio_px4_ws/build/camera_model -- -j8 -l8
+[0.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deva/ros2_vio_px4_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --build /home/deva/ros2_vio_px4_ws/build/px4_msgs -- -j8 -l8
+[0.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deva/ros2_vio_px4_ws/build/benchmark_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --build /home/deva/ros2_vio_px4_ws/build/benchmark_publisher -- -j8 -l8
+[0.371s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deva/ros2_vio_px4_ws/build/config_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --build /home/deva/ros2_vio_px4_ws/build/config_pkg -- -j8 -l8
+[0.616s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/deva/ros2_vio_px4_ws/src/vins_px4_bridge'
+[0.616s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.616s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/deva/ros2_vio_px4_ws/build/config_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --build /home/deva/ros2_vio_px4_ws/build/config_pkg -- -j8 -l8
+[0.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deva/ros2_vio_px4_ws/build/config_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --install /home/deva/ros2_vio_px4_ws/build/config_pkg
+[0.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/deva/ros2_vio_px4_ws/build/benchmark_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --build /home/deva/ros2_vio_px4_ws/build/benchmark_publisher -- -j8 -l8
+[0.632s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deva/ros2_vio_px4_ws/build/benchmark_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --install /home/deva/ros2_vio_px4_ws/build/benchmark_publisher
+[0.632s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/deva/ros2_vio_px4_ws/build/camera_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --build /home/deva/ros2_vio_px4_ws/build/camera_model -- -j8 -l8
+[0.633s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deva/ros2_vio_px4_ws/build/camera_model': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --install /home/deva/ros2_vio_px4_ws/build/camera_model
+[2.152s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(benchmark_publisher)
+[2.157s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/benchmark_publisher' for CMake module files
+[2.165s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/benchmark_publisher' for CMake config files
+[2.165s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/deva/ros2_vio_px4_ws/build/benchmark_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --install /home/deva/ros2_vio_px4_ws/build/benchmark_publisher
+[2.166s] Level 1:colcon.colcon_core.shell:create_environment_hook('benchmark_publisher', 'cmake_prefix_path')
+[2.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/benchmark_publisher/share/benchmark_publisher/hook/cmake_prefix_path.ps1'
+[2.168s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deva/ros2_vio_px4_ws/install/benchmark_publisher/share/benchmark_publisher/hook/cmake_prefix_path.dsv'
+[2.168s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/benchmark_publisher/share/benchmark_publisher/hook/cmake_prefix_path.sh'
+[2.169s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/benchmark_publisher/lib'
+[2.169s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/benchmark_publisher/bin'
+[2.169s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/benchmark_publisher/lib/pkgconfig/benchmark_publisher.pc'
+[2.169s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/benchmark_publisher/lib/python3.10/site-packages'
+[2.170s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/benchmark_publisher/bin'
+[2.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/benchmark_publisher/share/benchmark_publisher/package.ps1'
+[2.172s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/deva/ros2_vio_px4_ws/install/benchmark_publisher/share/benchmark_publisher/package.dsv'
+[2.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/benchmark_publisher/share/benchmark_publisher/package.sh'
+[2.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/benchmark_publisher/share/benchmark_publisher/package.bash'
+[2.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/benchmark_publisher/share/benchmark_publisher/package.zsh'
+[2.179s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/deva/ros2_vio_px4_ws/install/benchmark_publisher/share/colcon-core/packages/benchmark_publisher)
+[2.181s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(benchmark_publisher)
+[2.182s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/benchmark_publisher' for CMake module files
+[2.183s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/benchmark_publisher' for CMake config files
+[2.184s] Level 1:colcon.colcon_core.shell:create_environment_hook('benchmark_publisher', 'cmake_prefix_path')
+[2.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/benchmark_publisher/share/benchmark_publisher/hook/cmake_prefix_path.ps1'
+[2.375s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deva/ros2_vio_px4_ws/install/benchmark_publisher/share/benchmark_publisher/hook/cmake_prefix_path.dsv'
+[2.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/benchmark_publisher/share/benchmark_publisher/hook/cmake_prefix_path.sh'
+[2.376s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/benchmark_publisher/lib'
+[2.376s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/benchmark_publisher/bin'
+[2.376s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/benchmark_publisher/lib/pkgconfig/benchmark_publisher.pc'
+[2.376s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/benchmark_publisher/lib/python3.10/site-packages'
+[2.376s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/benchmark_publisher/bin'
+[2.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/benchmark_publisher/share/benchmark_publisher/package.ps1'
+[2.378s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/deva/ros2_vio_px4_ws/install/benchmark_publisher/share/benchmark_publisher/package.dsv'
+[2.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/benchmark_publisher/share/benchmark_publisher/package.sh'
+[2.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/benchmark_publisher/share/benchmark_publisher/package.bash'
+[2.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/benchmark_publisher/share/benchmark_publisher/package.zsh'
+[2.379s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/deva/ros2_vio_px4_ws/install/benchmark_publisher/share/colcon-core/packages/benchmark_publisher)
+[2.379s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(config_pkg)
+[2.380s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/config_pkg' for CMake module files
+[2.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/deva/ros2_vio_px4_ws/build/config_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --install /home/deva/ros2_vio_px4_ws/build/config_pkg
+[2.380s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/config_pkg' for CMake config files
+[2.380s] Level 1:colcon.colcon_core.shell:create_environment_hook('config_pkg', 'cmake_prefix_path')
+[2.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/hook/cmake_prefix_path.ps1'
+[2.381s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/hook/cmake_prefix_path.dsv'
+[2.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/hook/cmake_prefix_path.sh'
+[2.381s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/config_pkg/bin'
+[2.382s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/config_pkg/lib/pkgconfig/config_pkg.pc'
+[2.382s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/config_pkg/lib/python3.10/site-packages'
+[2.382s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/config_pkg/bin'
+[2.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/package.ps1'
+[2.382s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/package.dsv'
+[2.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/package.sh'
+[2.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/package.bash'
+[2.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/package.zsh'
+[2.384s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/deva/ros2_vio_px4_ws/install/config_pkg/share/colcon-core/packages/config_pkg)
+[2.385s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(config_pkg)
+[2.385s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/config_pkg' for CMake module files
+[2.385s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/config_pkg' for CMake config files
+[2.386s] Level 1:colcon.colcon_core.shell:create_environment_hook('config_pkg', 'cmake_prefix_path')
+[2.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/hook/cmake_prefix_path.ps1'
+[2.411s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/hook/cmake_prefix_path.dsv'
+[2.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/hook/cmake_prefix_path.sh'
+[2.412s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/config_pkg/bin'
+[2.412s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/config_pkg/lib/pkgconfig/config_pkg.pc'
+[2.412s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/config_pkg/lib/python3.10/site-packages'
+[2.412s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/config_pkg/bin'
+[2.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/package.ps1'
+[2.413s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/package.dsv'
+[2.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/package.sh'
+[2.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/package.bash'
+[2.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/config_pkg/share/config_pkg/package.zsh'
+[2.414s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/deva/ros2_vio_px4_ws/install/config_pkg/share/colcon-core/packages/config_pkg)
+[2.414s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_model)
+[2.415s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/camera_model' for CMake module files
+[2.416s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/camera_model' for CMake config files
+[2.416s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_model', 'cmake_prefix_path')
+[2.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/camera_model/share/camera_model/hook/cmake_prefix_path.ps1'
+[2.421s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deva/ros2_vio_px4_ws/install/camera_model/share/camera_model/hook/cmake_prefix_path.dsv'
+[2.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/deva/ros2_vio_px4_ws/build/camera_model' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --install /home/deva/ros2_vio_px4_ws/build/camera_model
+[2.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/camera_model/share/camera_model/hook/cmake_prefix_path.sh'
+[2.423s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/camera_model/lib'
+[2.423s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/camera_model/bin'
+[2.423s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_model', 'path')
+[2.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/camera_model/share/camera_model/hook/path.ps1'
+[2.424s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deva/ros2_vio_px4_ws/install/camera_model/share/camera_model/hook/path.dsv'
+[2.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/camera_model/share/camera_model/hook/path.sh'
+[2.424s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/camera_model/lib/pkgconfig/camera_model.pc'
+[2.424s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/camera_model/lib/python3.10/site-packages'
+[2.424s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/camera_model/bin'
+[2.424s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_model', 'pythonscriptspath')
+[2.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/camera_model/share/camera_model/hook/pythonscriptspath.ps1'
+[2.425s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deva/ros2_vio_px4_ws/install/camera_model/share/camera_model/hook/pythonscriptspath.dsv'
+[2.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/camera_model/share/camera_model/hook/pythonscriptspath.sh'
+[2.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/camera_model/share/camera_model/package.ps1'
+[2.426s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/deva/ros2_vio_px4_ws/install/camera_model/share/camera_model/package.dsv'
+[2.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/camera_model/share/camera_model/package.sh'
+[2.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/camera_model/share/camera_model/package.bash'
+[2.427s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/camera_model/share/camera_model/package.zsh'
+[2.427s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/deva/ros2_vio_px4_ws/install/camera_model/share/colcon-core/packages/camera_model)
+[2.428s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_model)
+[2.429s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/camera_model' for CMake module files
+[2.430s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/camera_model' for CMake config files
+[2.431s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_model', 'cmake_prefix_path')
+[2.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/camera_model/share/camera_model/hook/cmake_prefix_path.ps1'
+[2.433s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deva/ros2_vio_px4_ws/install/camera_model/share/camera_model/hook/cmake_prefix_path.dsv'
+[2.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/camera_model/share/camera_model/hook/cmake_prefix_path.sh'
+[2.569s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/camera_model/lib'
+[2.569s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/camera_model/bin'
+[2.569s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_model', 'path')
+[2.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/camera_model/share/camera_model/hook/path.ps1'
+[2.570s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deva/ros2_vio_px4_ws/install/camera_model/share/camera_model/hook/path.dsv'
+[2.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/camera_model/share/camera_model/hook/path.sh'
+[2.570s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/camera_model/lib/pkgconfig/camera_model.pc'
+[2.570s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/camera_model/lib/python3.10/site-packages'
+[2.571s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/camera_model/bin'
+[2.571s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_model', 'pythonscriptspath')
+[2.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/camera_model/share/camera_model/hook/pythonscriptspath.ps1'
+[2.571s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deva/ros2_vio_px4_ws/install/camera_model/share/camera_model/hook/pythonscriptspath.dsv'
+[2.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/camera_model/share/camera_model/hook/pythonscriptspath.sh'
+[2.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/camera_model/share/camera_model/package.ps1'
+[2.572s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/deva/ros2_vio_px4_ws/install/camera_model/share/camera_model/package.dsv'
+[2.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/camera_model/share/camera_model/package.sh'
+[2.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/camera_model/share/camera_model/package.bash'
+[2.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/camera_model/share/camera_model/package.zsh'
+[2.573s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/deva/ros2_vio_px4_ws/install/camera_model/share/colcon-core/packages/camera_model)
+[2.574s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/ar_demo' with build type 'ament_cmake'
+[2.574s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/ar_demo'
+[2.574s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.574s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.578s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/feature_tracker' with build type 'ament_cmake'
+[2.578s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/feature_tracker'
+[2.579s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.579s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.583s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph' with build type 'ament_cmake'
+[2.583s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/pose_graph'
+[2.583s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.583s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.585s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/vins_estimator' with build type 'ament_cmake'
+[2.586s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/deva/ros2_vio_px4_ws/src/VINS-MONO-ROS2/vins_estimator'
+[2.586s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.586s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deva/ros2_vio_px4_ws/build/vins_px4_bridge': PYTHONPATH=/home/deva/ros2_vio_px4_ws/build/vins_px4_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/deva/ros2_vio_px4_ws/build/vins_px4_bridge/build --no-deps symlink_data
+[2.595s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/deva/ros2_vio_px4_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --build /home/deva/ros2_vio_px4_ws/build/px4_msgs -- -j8 -l8
+[2.598s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deva/ros2_vio_px4_ws/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --install /home/deva/ros2_vio_px4_ws/build/px4_msgs
+[2.602s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deva/ros2_vio_px4_ws/build/ar_demo': CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:/home/deva/ros2_vio_px4_ws/install/vins_estimator:/home/deva/ros2_vio_px4_ws/install/px4_ros_com:/home/deva/ros2_vio_px4_ws/install/px4_msgs:/home/deva/ros2_vio_px4_ws/install/pose_graph:/home/deva/ros2_vio_px4_ws/install/feature_tracker:/home/deva/ros2_vio_px4_ws/install/config_pkg:/home/deva/ros2_vio_px4_ws/install/ar_demo:/home/deva/ros2_vio_px4_ws/install/benchmark_publisher:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --build /home/deva/ros2_vio_px4_ws/build/ar_demo -- -j8 -l8
+[2.604s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deva/ros2_vio_px4_ws/build/feature_tracker': CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:/home/deva/ros2_vio_px4_ws/install/vins_estimator:/home/deva/ros2_vio_px4_ws/install/px4_ros_com:/home/deva/ros2_vio_px4_ws/install/px4_msgs:/home/deva/ros2_vio_px4_ws/install/pose_graph:/home/deva/ros2_vio_px4_ws/install/feature_tracker:/home/deva/ros2_vio_px4_ws/install/config_pkg:/home/deva/ros2_vio_px4_ws/install/ar_demo:/home/deva/ros2_vio_px4_ws/install/benchmark_publisher:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --build /home/deva/ros2_vio_px4_ws/build/feature_tracker -- -j8 -l8
+[2.612s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deva/ros2_vio_px4_ws/build/pose_graph': CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:/home/deva/ros2_vio_px4_ws/install/vins_estimator:/home/deva/ros2_vio_px4_ws/install/px4_ros_com:/home/deva/ros2_vio_px4_ws/install/px4_msgs:/home/deva/ros2_vio_px4_ws/install/pose_graph:/home/deva/ros2_vio_px4_ws/install/feature_tracker:/home/deva/ros2_vio_px4_ws/install/config_pkg:/home/deva/ros2_vio_px4_ws/install/ar_demo:/home/deva/ros2_vio_px4_ws/install/benchmark_publisher:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --build /home/deva/ros2_vio_px4_ws/build/pose_graph -- -j8 -l8
+[2.621s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deva/ros2_vio_px4_ws/build/vins_estimator': CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:/home/deva/ros2_vio_px4_ws/install/vins_estimator:/home/deva/ros2_vio_px4_ws/install/px4_ros_com:/home/deva/ros2_vio_px4_ws/install/px4_msgs:/home/deva/ros2_vio_px4_ws/install/pose_graph:/home/deva/ros2_vio_px4_ws/install/feature_tracker:/home/deva/ros2_vio_px4_ws/install/config_pkg:/home/deva/ros2_vio_px4_ws/install/ar_demo:/home/deva/ros2_vio_px4_ws/install/benchmark_publisher:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --build /home/deva/ros2_vio_px4_ws/build/vins_estimator -- -j8 -l8
+[2.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/deva/ros2_vio_px4_ws/build/ar_demo' returned '0': CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:/home/deva/ros2_vio_px4_ws/install/vins_estimator:/home/deva/ros2_vio_px4_ws/install/px4_ros_com:/home/deva/ros2_vio_px4_ws/install/px4_msgs:/home/deva/ros2_vio_px4_ws/install/pose_graph:/home/deva/ros2_vio_px4_ws/install/feature_tracker:/home/deva/ros2_vio_px4_ws/install/config_pkg:/home/deva/ros2_vio_px4_ws/install/ar_demo:/home/deva/ros2_vio_px4_ws/install/benchmark_publisher:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --build /home/deva/ros2_vio_px4_ws/build/ar_demo -- -j8 -l8
+[2.726s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deva/ros2_vio_px4_ws/build/ar_demo': CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:/home/deva/ros2_vio_px4_ws/install/vins_estimator:/home/deva/ros2_vio_px4_ws/install/px4_ros_com:/home/deva/ros2_vio_px4_ws/install/px4_msgs:/home/deva/ros2_vio_px4_ws/install/pose_graph:/home/deva/ros2_vio_px4_ws/install/feature_tracker:/home/deva/ros2_vio_px4_ws/install/config_pkg:/home/deva/ros2_vio_px4_ws/install/ar_demo:/home/deva/ros2_vio_px4_ws/install/benchmark_publisher:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --install /home/deva/ros2_vio_px4_ws/build/ar_demo
+[2.737s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/deva/ros2_vio_px4_ws/build/feature_tracker' returned '0': CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:/home/deva/ros2_vio_px4_ws/install/vins_estimator:/home/deva/ros2_vio_px4_ws/install/px4_ros_com:/home/deva/ros2_vio_px4_ws/install/px4_msgs:/home/deva/ros2_vio_px4_ws/install/pose_graph:/home/deva/ros2_vio_px4_ws/install/feature_tracker:/home/deva/ros2_vio_px4_ws/install/config_pkg:/home/deva/ros2_vio_px4_ws/install/ar_demo:/home/deva/ros2_vio_px4_ws/install/benchmark_publisher:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --build /home/deva/ros2_vio_px4_ws/build/feature_tracker -- -j8 -l8
+[2.743s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deva/ros2_vio_px4_ws/build/feature_tracker': CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:/home/deva/ros2_vio_px4_ws/install/vins_estimator:/home/deva/ros2_vio_px4_ws/install/px4_ros_com:/home/deva/ros2_vio_px4_ws/install/px4_msgs:/home/deva/ros2_vio_px4_ws/install/pose_graph:/home/deva/ros2_vio_px4_ws/install/feature_tracker:/home/deva/ros2_vio_px4_ws/install/config_pkg:/home/deva/ros2_vio_px4_ws/install/ar_demo:/home/deva/ros2_vio_px4_ws/install/benchmark_publisher:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --install /home/deva/ros2_vio_px4_ws/build/feature_tracker
+[2.746s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ar_demo)
+[2.747s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/ar_demo' for CMake module files
+[2.749s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/deva/ros2_vio_px4_ws/build/pose_graph' returned '0': CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:/home/deva/ros2_vio_px4_ws/install/vins_estimator:/home/deva/ros2_vio_px4_ws/install/px4_ros_com:/home/deva/ros2_vio_px4_ws/install/px4_msgs:/home/deva/ros2_vio_px4_ws/install/pose_graph:/home/deva/ros2_vio_px4_ws/install/feature_tracker:/home/deva/ros2_vio_px4_ws/install/config_pkg:/home/deva/ros2_vio_px4_ws/install/ar_demo:/home/deva/ros2_vio_px4_ws/install/benchmark_publisher:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --build /home/deva/ros2_vio_px4_ws/build/pose_graph -- -j8 -l8
+[2.752s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/ar_demo' for CMake config files
+[2.756s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deva/ros2_vio_px4_ws/build/pose_graph': CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:/home/deva/ros2_vio_px4_ws/install/vins_estimator:/home/deva/ros2_vio_px4_ws/install/px4_ros_com:/home/deva/ros2_vio_px4_ws/install/px4_msgs:/home/deva/ros2_vio_px4_ws/install/pose_graph:/home/deva/ros2_vio_px4_ws/install/feature_tracker:/home/deva/ros2_vio_px4_ws/install/config_pkg:/home/deva/ros2_vio_px4_ws/install/ar_demo:/home/deva/ros2_vio_px4_ws/install/benchmark_publisher:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --install /home/deva/ros2_vio_px4_ws/build/pose_graph
+[2.756s] Level 1:colcon.colcon_core.shell:create_environment_hook('ar_demo', 'cmake_prefix_path')
+[2.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/ar_demo/share/ar_demo/hook/cmake_prefix_path.ps1'
+[2.758s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deva/ros2_vio_px4_ws/install/ar_demo/share/ar_demo/hook/cmake_prefix_path.dsv'
+[2.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/ar_demo/share/ar_demo/hook/cmake_prefix_path.sh'
+[2.761s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/ar_demo/lib'
+[2.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/deva/ros2_vio_px4_ws/build/ar_demo' returned '0': CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:/home/deva/ros2_vio_px4_ws/install/vins_estimator:/home/deva/ros2_vio_px4_ws/install/px4_ros_com:/home/deva/ros2_vio_px4_ws/install/px4_msgs:/home/deva/ros2_vio_px4_ws/install/pose_graph:/home/deva/ros2_vio_px4_ws/install/feature_tracker:/home/deva/ros2_vio_px4_ws/install/config_pkg:/home/deva/ros2_vio_px4_ws/install/ar_demo:/home/deva/ros2_vio_px4_ws/install/benchmark_publisher:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --install /home/deva/ros2_vio_px4_ws/build/ar_demo
+[2.762s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/ar_demo/bin'
+[2.762s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/ar_demo/lib/pkgconfig/ar_demo.pc'
+[2.762s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/ar_demo/lib/python3.10/site-packages'
+[2.762s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/ar_demo/bin'
+[2.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/ar_demo/share/ar_demo/package.ps1'
+[2.765s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/deva/ros2_vio_px4_ws/install/ar_demo/share/ar_demo/package.dsv'
+[2.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/ar_demo/share/ar_demo/package.sh'
+[2.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/ar_demo/share/ar_demo/package.bash'
+[2.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/ar_demo/share/ar_demo/package.zsh'
+[2.776s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/deva/ros2_vio_px4_ws/install/ar_demo/share/colcon-core/packages/ar_demo)
+[2.781s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ar_demo)
+[2.782s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/ar_demo' for CMake module files
+[2.787s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/ar_demo' for CMake config files
+[2.790s] Level 1:colcon.colcon_core.shell:create_environment_hook('ar_demo', 'cmake_prefix_path')
+[2.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/ar_demo/share/ar_demo/hook/cmake_prefix_path.ps1'
+[2.793s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deva/ros2_vio_px4_ws/install/ar_demo/share/ar_demo/hook/cmake_prefix_path.dsv'
+[2.795s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/ar_demo/share/ar_demo/hook/cmake_prefix_path.sh'
+[2.800s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/ar_demo/lib'
+[2.803s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/ar_demo/bin'
+[2.804s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/ar_demo/lib/pkgconfig/ar_demo.pc'
+[2.805s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/ar_demo/lib/python3.10/site-packages'
+[2.805s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/ar_demo/bin'
+[2.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/ar_demo/share/ar_demo/package.ps1'
+[2.808s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/deva/ros2_vio_px4_ws/install/ar_demo/share/ar_demo/package.dsv'
+[2.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/ar_demo/share/ar_demo/package.sh'
+[2.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/ar_demo/share/ar_demo/package.bash'
+[2.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/ar_demo/share/ar_demo/package.zsh'
+[2.818s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/deva/ros2_vio_px4_ws/install/ar_demo/share/colcon-core/packages/ar_demo)
+[2.829s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(feature_tracker)
+[2.831s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/feature_tracker' for CMake module files
+[2.832s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/deva/ros2_vio_px4_ws/build/vins_estimator' returned '0': CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:/home/deva/ros2_vio_px4_ws/install/vins_estimator:/home/deva/ros2_vio_px4_ws/install/px4_ros_com:/home/deva/ros2_vio_px4_ws/install/px4_msgs:/home/deva/ros2_vio_px4_ws/install/pose_graph:/home/deva/ros2_vio_px4_ws/install/feature_tracker:/home/deva/ros2_vio_px4_ws/install/config_pkg:/home/deva/ros2_vio_px4_ws/install/ar_demo:/home/deva/ros2_vio_px4_ws/install/benchmark_publisher:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --build /home/deva/ros2_vio_px4_ws/build/vins_estimator -- -j8 -l8
+[2.837s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/feature_tracker' for CMake config files
+[2.839s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deva/ros2_vio_px4_ws/build/vins_estimator': CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:/home/deva/ros2_vio_px4_ws/install/vins_estimator:/home/deva/ros2_vio_px4_ws/install/px4_ros_com:/home/deva/ros2_vio_px4_ws/install/px4_msgs:/home/deva/ros2_vio_px4_ws/install/pose_graph:/home/deva/ros2_vio_px4_ws/install/feature_tracker:/home/deva/ros2_vio_px4_ws/install/config_pkg:/home/deva/ros2_vio_px4_ws/install/ar_demo:/home/deva/ros2_vio_px4_ws/install/benchmark_publisher:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --install /home/deva/ros2_vio_px4_ws/build/vins_estimator
+[2.841s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/deva/ros2_vio_px4_ws/build/feature_tracker' returned '0': CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:/home/deva/ros2_vio_px4_ws/install/vins_estimator:/home/deva/ros2_vio_px4_ws/install/px4_ros_com:/home/deva/ros2_vio_px4_ws/install/px4_msgs:/home/deva/ros2_vio_px4_ws/install/pose_graph:/home/deva/ros2_vio_px4_ws/install/feature_tracker:/home/deva/ros2_vio_px4_ws/install/config_pkg:/home/deva/ros2_vio_px4_ws/install/ar_demo:/home/deva/ros2_vio_px4_ws/install/benchmark_publisher:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --install /home/deva/ros2_vio_px4_ws/build/feature_tracker
+[2.845s] Level 1:colcon.colcon_core.shell:create_environment_hook('feature_tracker', 'cmake_prefix_path')
+[2.845s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/feature_tracker/share/feature_tracker/hook/cmake_prefix_path.ps1'
+[2.849s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deva/ros2_vio_px4_ws/install/feature_tracker/share/feature_tracker/hook/cmake_prefix_path.dsv'
+[2.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/feature_tracker/share/feature_tracker/hook/cmake_prefix_path.sh'
+[2.856s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/feature_tracker/lib'
+[2.856s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/feature_tracker/bin'
+[2.856s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/feature_tracker/lib/pkgconfig/feature_tracker.pc'
+[2.856s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/feature_tracker/lib/python3.10/site-packages'
+[2.857s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/feature_tracker/bin'
+[2.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/feature_tracker/share/feature_tracker/package.ps1'
+[2.858s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/deva/ros2_vio_px4_ws/install/feature_tracker/share/feature_tracker/package.dsv'
+[2.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/feature_tracker/share/feature_tracker/package.sh'
+[2.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/feature_tracker/share/feature_tracker/package.bash'
+[2.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/feature_tracker/share/feature_tracker/package.zsh'
+[2.872s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/deva/ros2_vio_px4_ws/install/feature_tracker/share/colcon-core/packages/feature_tracker)
+[2.876s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(feature_tracker)
+[2.877s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/feature_tracker' for CMake module files
+[2.884s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/feature_tracker' for CMake config files
+[2.886s] Level 1:colcon.colcon_core.shell:create_environment_hook('feature_tracker', 'cmake_prefix_path')
+[2.887s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/feature_tracker/share/feature_tracker/hook/cmake_prefix_path.ps1'
+[2.890s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deva/ros2_vio_px4_ws/install/feature_tracker/share/feature_tracker/hook/cmake_prefix_path.dsv'
+[2.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/feature_tracker/share/feature_tracker/hook/cmake_prefix_path.sh'
+[2.899s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/feature_tracker/lib'
+[2.901s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/feature_tracker/bin'
+[2.902s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/feature_tracker/lib/pkgconfig/feature_tracker.pc'
+[2.903s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/feature_tracker/lib/python3.10/site-packages'
+[2.903s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/feature_tracker/bin'
+[2.903s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/feature_tracker/share/feature_tracker/package.ps1'
+[2.906s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/deva/ros2_vio_px4_ws/install/feature_tracker/share/feature_tracker/package.dsv'
+[2.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/feature_tracker/share/feature_tracker/package.sh'
+[2.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/feature_tracker/share/feature_tracker/package.bash'
+[2.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/feature_tracker/share/feature_tracker/package.zsh'
+[2.914s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/deva/ros2_vio_px4_ws/install/feature_tracker/share/colcon-core/packages/feature_tracker)
+[2.916s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pose_graph)
+[2.917s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/pose_graph' for CMake module files
+[2.924s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/pose_graph' for CMake config files
+[2.930s] Level 1:colcon.colcon_core.shell:create_environment_hook('pose_graph', 'cmake_prefix_path')
+[2.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/deva/ros2_vio_px4_ws/build/pose_graph' returned '0': CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:/home/deva/ros2_vio_px4_ws/install/vins_estimator:/home/deva/ros2_vio_px4_ws/install/px4_ros_com:/home/deva/ros2_vio_px4_ws/install/px4_msgs:/home/deva/ros2_vio_px4_ws/install/pose_graph:/home/deva/ros2_vio_px4_ws/install/feature_tracker:/home/deva/ros2_vio_px4_ws/install/config_pkg:/home/deva/ros2_vio_px4_ws/install/ar_demo:/home/deva/ros2_vio_px4_ws/install/benchmark_publisher:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --install /home/deva/ros2_vio_px4_ws/build/pose_graph
+[2.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/pose_graph/share/pose_graph/hook/cmake_prefix_path.ps1'
+[2.934s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deva/ros2_vio_px4_ws/install/pose_graph/share/pose_graph/hook/cmake_prefix_path.dsv'
+[2.935s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/pose_graph/share/pose_graph/hook/cmake_prefix_path.sh'
+[2.937s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/pose_graph/lib'
+[2.940s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/pose_graph/bin'
+[2.941s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/pose_graph/lib/pkgconfig/pose_graph.pc'
+[2.941s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/pose_graph/lib/python3.10/site-packages'
+[2.941s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/pose_graph/bin'
+[2.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/pose_graph/share/pose_graph/package.ps1'
+[2.944s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/deva/ros2_vio_px4_ws/install/pose_graph/share/pose_graph/package.dsv'
+[2.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/pose_graph/share/pose_graph/package.sh'
+[2.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/pose_graph/share/pose_graph/package.bash'
+[2.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/pose_graph/share/pose_graph/package.zsh'
+[2.956s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/deva/ros2_vio_px4_ws/install/pose_graph/share/colcon-core/packages/pose_graph)
+[2.962s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pose_graph)
+[2.963s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/pose_graph' for CMake module files
+[2.968s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/pose_graph' for CMake config files
+[2.981s] Level 1:colcon.colcon_core.shell:create_environment_hook('pose_graph', 'cmake_prefix_path')
+[2.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/pose_graph/share/pose_graph/hook/cmake_prefix_path.ps1'
+[2.984s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deva/ros2_vio_px4_ws/install/pose_graph/share/pose_graph/hook/cmake_prefix_path.dsv'
+[2.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/pose_graph/share/pose_graph/hook/cmake_prefix_path.sh'
+[2.993s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/pose_graph/lib'
+[2.994s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/pose_graph/bin'
+[2.994s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/pose_graph/lib/pkgconfig/pose_graph.pc'
+[2.994s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/pose_graph/lib/python3.10/site-packages'
+[2.994s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/pose_graph/bin'
+[2.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/pose_graph/share/pose_graph/package.ps1'
+[2.997s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/deva/ros2_vio_px4_ws/install/pose_graph/share/pose_graph/package.dsv'
+[3.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/pose_graph/share/pose_graph/package.sh'
+[3.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/pose_graph/share/pose_graph/package.bash'
+[3.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/pose_graph/share/pose_graph/package.zsh'
+[3.007s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/deva/ros2_vio_px4_ws/install/pose_graph/share/colcon-core/packages/pose_graph)
+[3.012s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vins_estimator)
+[3.014s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/vins_estimator' for CMake module files
+[3.017s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/vins_estimator' for CMake config files
+[3.018s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/deva/ros2_vio_px4_ws/build/vins_estimator' returned '0': CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/camera_model:/home/deva/ros2_vio_px4_ws/install/vins_estimator:/home/deva/ros2_vio_px4_ws/install/px4_ros_com:/home/deva/ros2_vio_px4_ws/install/px4_msgs:/home/deva/ros2_vio_px4_ws/install/pose_graph:/home/deva/ros2_vio_px4_ws/install/feature_tracker:/home/deva/ros2_vio_px4_ws/install/config_pkg:/home/deva/ros2_vio_px4_ws/install/ar_demo:/home/deva/ros2_vio_px4_ws/install/benchmark_publisher:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --install /home/deva/ros2_vio_px4_ws/build/vins_estimator
+[3.019s] Level 1:colcon.colcon_core.shell:create_environment_hook('vins_estimator', 'cmake_prefix_path')
+[3.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/vins_estimator/share/vins_estimator/hook/cmake_prefix_path.ps1'
+[3.020s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deva/ros2_vio_px4_ws/install/vins_estimator/share/vins_estimator/hook/cmake_prefix_path.dsv'
+[3.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/vins_estimator/share/vins_estimator/hook/cmake_prefix_path.sh'
+[3.021s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/vins_estimator/lib'
+[3.021s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/vins_estimator/bin'
+[3.021s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/vins_estimator/lib/pkgconfig/vins_estimator.pc'
+[3.022s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/vins_estimator/lib/python3.10/site-packages'
+[3.022s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/vins_estimator/bin'
+[3.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/vins_estimator/share/vins_estimator/package.ps1'
+[3.025s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/deva/ros2_vio_px4_ws/install/vins_estimator/share/vins_estimator/package.dsv'
+[3.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/vins_estimator/share/vins_estimator/package.sh'
+[3.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/vins_estimator/share/vins_estimator/package.bash'
+[3.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/vins_estimator/share/vins_estimator/package.zsh'
+[3.028s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/deva/ros2_vio_px4_ws/install/vins_estimator/share/colcon-core/packages/vins_estimator)
+[3.028s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vins_estimator)
+[3.028s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/vins_estimator' for CMake module files
+[3.029s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/vins_estimator' for CMake config files
+[3.029s] Level 1:colcon.colcon_core.shell:create_environment_hook('vins_estimator', 'cmake_prefix_path')
+[3.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/vins_estimator/share/vins_estimator/hook/cmake_prefix_path.ps1'
+[3.030s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deva/ros2_vio_px4_ws/install/vins_estimator/share/vins_estimator/hook/cmake_prefix_path.dsv'
+[3.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/vins_estimator/share/vins_estimator/hook/cmake_prefix_path.sh'
+[3.031s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/vins_estimator/lib'
+[3.031s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/vins_estimator/bin'
+[3.031s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/vins_estimator/lib/pkgconfig/vins_estimator.pc'
+[3.031s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/vins_estimator/lib/python3.10/site-packages'
+[3.031s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/vins_estimator/bin'
+[3.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/vins_estimator/share/vins_estimator/package.ps1'
+[3.032s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/deva/ros2_vio_px4_ws/install/vins_estimator/share/vins_estimator/package.dsv'
+[3.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/vins_estimator/share/vins_estimator/package.sh'
+[3.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/vins_estimator/share/vins_estimator/package.bash'
+[3.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/vins_estimator/share/vins_estimator/package.zsh'
+[3.033s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/deva/ros2_vio_px4_ws/install/vins_estimator/share/colcon-core/packages/vins_estimator)
+[3.075s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[3.076s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/px4_msgs' for CMake module files
+[3.076s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/deva/ros2_vio_px4_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble /usr/bin/cmake --install /home/deva/ros2_vio_px4_ws/build/px4_msgs
+[3.077s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/px4_msgs' for CMake config files
+[3.078s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[3.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[3.080s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deva/ros2_vio_px4_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[3.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[3.081s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/px4_msgs/lib'
+[3.081s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[3.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[3.081s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deva/ros2_vio_px4_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[3.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[3.082s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/px4_msgs/bin'
+[3.082s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[3.082s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/px4_msgs/lib/python3.10/site-packages'
+[3.082s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/px4_msgs/bin'
+[3.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[3.082s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/deva/ros2_vio_px4_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[3.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[3.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[3.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[3.083s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/deva/ros2_vio_px4_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[3.084s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[3.084s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/px4_msgs' for CMake module files
+[3.084s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/px4_msgs' for CMake config files
+[3.087s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[3.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[3.088s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deva/ros2_vio_px4_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[3.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[3.088s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/px4_msgs/lib'
+[3.089s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[3.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[3.090s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deva/ros2_vio_px4_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[3.090s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[3.091s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/px4_msgs/bin'
+[3.091s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[3.092s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/px4_msgs/lib/python3.10/site-packages'
+[3.092s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/px4_msgs/bin'
+[3.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[3.092s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/deva/ros2_vio_px4_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[3.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[3.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[3.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[3.094s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/deva/ros2_vio_px4_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[3.094s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/deva/ros2_vio_px4_ws/src/px4_ros_com' with build type 'ament_cmake'
+[3.094s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/deva/ros2_vio_px4_ws/src/px4_ros_com'
+[3.095s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.095s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deva/ros2_vio_px4_ws/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/px4_msgs:/home/deva/ros2_vio_px4_ws/install/vins_estimator:/home/deva/ros2_vio_px4_ws/install/px4_ros_com:/home/deva/ros2_vio_px4_ws/install/pose_graph:/home/deva/ros2_vio_px4_ws/install/feature_tracker:/home/deva/ros2_vio_px4_ws/install/config_pkg:/home/deva/ros2_vio_px4_ws/install/ar_demo:/home/deva/ros2_vio_px4_ws/install/camera_model:/home/deva/ros2_vio_px4_ws/install/benchmark_publisher:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/deva/ros2_vio_px4_ws/install/px4_msgs/lib:/home/deva/ros2_vio_px4_ws/install/px4_ros_com/lib:/home/deva/ros2_vio_px4_ws/install/camera_model/lib:/usr/local/openssl-3.3/lib:/usr/local/openssl-3.3/lib:/usr/local/openssl-3.3/lib:/usr/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/deva/ros2_vio_px4_ws/build/px4_ros_com -- -j8 -l8
+[3.174s] Level 1:colcon.colcon_core.shell:create_environment_hook('vins_px4_bridge', 'pythonpath_develop')
+[3.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/build/vins_px4_bridge/share/vins_px4_bridge/hook/pythonpath_develop.ps1'
+[3.175s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deva/ros2_vio_px4_ws/build/vins_px4_bridge/share/vins_px4_bridge/hook/pythonpath_develop.dsv'
+[3.176s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/deva/ros2_vio_px4_ws/build/vins_px4_bridge' returned '0': PYTHONPATH=/home/deva/ros2_vio_px4_ws/build/vins_px4_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/deva/ros2_vio_px4_ws/build/vins_px4_bridge/build --no-deps symlink_data
+[3.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/build/vins_px4_bridge/share/vins_px4_bridge/hook/pythonpath_develop.sh'
+[3.178s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge' for CMake module files
+[3.178s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge' for CMake config files
+[3.181s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge/lib'
+[3.181s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge/bin'
+[3.182s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge/lib/pkgconfig/vins_px4_bridge.pc'
+[3.182s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge/lib/python3.10/site-packages'
+[3.183s] Level 1:colcon.colcon_core.shell:create_environment_hook('vins_px4_bridge', 'pythonpath')
+[3.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge/share/vins_px4_bridge/hook/pythonpath.ps1'
+[3.189s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge/share/vins_px4_bridge/hook/pythonpath.dsv'
+[3.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge/share/vins_px4_bridge/hook/pythonpath.sh'
+[3.190s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge/bin'
+[3.190s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vins_px4_bridge)
+[3.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge/share/vins_px4_bridge/package.ps1'
+[3.191s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge/share/vins_px4_bridge/package.dsv'
+[3.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge/share/vins_px4_bridge/package.sh'
+[3.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge/share/vins_px4_bridge/package.bash'
+[3.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge/share/vins_px4_bridge/package.zsh'
+[3.192s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge/share/colcon-core/packages/vins_px4_bridge)
+[3.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/deva/ros2_vio_px4_ws/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/px4_msgs:/home/deva/ros2_vio_px4_ws/install/vins_estimator:/home/deva/ros2_vio_px4_ws/install/px4_ros_com:/home/deva/ros2_vio_px4_ws/install/pose_graph:/home/deva/ros2_vio_px4_ws/install/feature_tracker:/home/deva/ros2_vio_px4_ws/install/config_pkg:/home/deva/ros2_vio_px4_ws/install/ar_demo:/home/deva/ros2_vio_px4_ws/install/camera_model:/home/deva/ros2_vio_px4_ws/install/benchmark_publisher:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/deva/ros2_vio_px4_ws/install/px4_msgs/lib:/home/deva/ros2_vio_px4_ws/install/px4_ros_com/lib:/home/deva/ros2_vio_px4_ws/install/camera_model/lib:/usr/local/openssl-3.3/lib:/usr/local/openssl-3.3/lib:/usr/local/openssl-3.3/lib:/usr/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/deva/ros2_vio_px4_ws/build/px4_ros_com -- -j8 -l8
+[3.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/deva/ros2_vio_px4_ws/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/px4_msgs:/home/deva/ros2_vio_px4_ws/install/vins_estimator:/home/deva/ros2_vio_px4_ws/install/px4_ros_com:/home/deva/ros2_vio_px4_ws/install/pose_graph:/home/deva/ros2_vio_px4_ws/install/feature_tracker:/home/deva/ros2_vio_px4_ws/install/config_pkg:/home/deva/ros2_vio_px4_ws/install/ar_demo:/home/deva/ros2_vio_px4_ws/install/camera_model:/home/deva/ros2_vio_px4_ws/install/benchmark_publisher:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/deva/ros2_vio_px4_ws/install/px4_msgs/lib:/home/deva/ros2_vio_px4_ws/install/px4_ros_com/lib:/home/deva/ros2_vio_px4_ws/install/camera_model/lib:/usr/local/openssl-3.3/lib:/usr/local/openssl-3.3/lib:/usr/local/openssl-3.3/lib:/usr/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/deva/ros2_vio_px4_ws/build/px4_ros_com
+[3.500s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[3.500s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/px4_ros_com' for CMake module files
+[3.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/deva/ros2_vio_px4_ws/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/home/deva/ros2_vio_px4_ws/install/px4_msgs:/home/deva/ros2_vio_px4_ws/install/vins_estimator:/home/deva/ros2_vio_px4_ws/install/px4_ros_com:/home/deva/ros2_vio_px4_ws/install/pose_graph:/home/deva/ros2_vio_px4_ws/install/feature_tracker:/home/deva/ros2_vio_px4_ws/install/config_pkg:/home/deva/ros2_vio_px4_ws/install/ar_demo:/home/deva/ros2_vio_px4_ws/install/camera_model:/home/deva/ros2_vio_px4_ws/install/benchmark_publisher:/home/deva/ros2_vio_px4_ws/install/vins_px4_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/deva/ros2_vio_px4_ws/install/px4_msgs/lib:/home/deva/ros2_vio_px4_ws/install/px4_ros_com/lib:/home/deva/ros2_vio_px4_ws/install/camera_model/lib:/usr/local/openssl-3.3/lib:/usr/local/openssl-3.3/lib:/usr/local/openssl-3.3/lib:/usr/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/deva/ros2_vio_px4_ws/build/px4_ros_com
+[3.501s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/px4_ros_com' for CMake config files
+[3.501s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[3.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[3.502s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deva/ros2_vio_px4_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[3.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[3.502s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/px4_ros_com/lib'
+[3.502s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[3.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[3.503s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deva/ros2_vio_px4_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[3.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[3.504s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/px4_ros_com/bin'
+[3.504s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[3.504s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/px4_ros_com/lib/python3.10/site-packages'
+[3.505s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/px4_ros_com/bin'
+[3.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[3.506s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/deva/ros2_vio_px4_ws/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[3.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/px4_ros_com/share/px4_ros_com/package.sh'
+[3.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/px4_ros_com/share/px4_ros_com/package.bash'
+[3.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[3.508s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/deva/ros2_vio_px4_ws/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[3.508s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[3.508s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/px4_ros_com' for CMake module files
+[3.509s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/px4_ros_com' for CMake config files
+[3.509s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[3.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[3.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deva/ros2_vio_px4_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[3.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[3.510s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/px4_ros_com/lib'
+[3.510s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[3.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[3.510s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/deva/ros2_vio_px4_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[3.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/deva/ros2_vio_px4_ws/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[3.511s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/px4_ros_com/bin'
+[3.511s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[3.511s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/px4_ros_com/lib/python3.10/site-packages'
+[3.511s] Level 1:colcon.colcon_core.environment:checking '/home/deva/ros2_vio_px4_ws/install/px4_ros_com/bin'
+[3.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[3.511s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/deva/ros2_vio_px4_ws/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[3.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/px4_ros_com/share/px4_ros_com/package.sh'
+[3.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/px4_ros_com/share/px4_ros_com/package.bash'
+[3.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/deva/ros2_vio_px4_ws/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[3.512s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/deva/ros2_vio_px4_ws/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[3.513s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.513s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.513s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.513s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.518s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.518s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.518s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.529s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.529s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/deva/ros2_vio_px4_ws/install/local_setup.ps1'
+[3.530s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/deva/ros2_vio_px4_ws/install/_local_setup_util_ps1.py'
+[3.532s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/deva/ros2_vio_px4_ws/install/setup.ps1'
+[3.534s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/deva/ros2_vio_px4_ws/install/local_setup.sh'
+[3.534s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/deva/ros2_vio_px4_ws/install/_local_setup_util_sh.py'
+[3.535s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/deva/ros2_vio_px4_ws/install/setup.sh'
+[3.536s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/deva/ros2_vio_px4_ws/install/local_setup.bash'
+[3.536s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/deva/ros2_vio_px4_ws/install/setup.bash'
+[3.538s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/deva/ros2_vio_px4_ws/install/local_setup.zsh'
+[3.538s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/deva/ros2_vio_px4_ws/install/setup.zsh'

@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing vins_px4_bridge.egg-info/PKG-INFO
+writing dependency_links to vins_px4_bridge.egg-info/dependency_links.txt
+writing entry points to vins_px4_bridge.egg-info/entry_points.txt
+writing requirements to vins_px4_bridge.egg-info/requires.txt
+writing top-level names to vins_px4_bridge.egg-info/top_level.txt
+reading manifest file 'vins_px4_bridge.egg-info/SOURCES.txt'
+writing manifest file 'vins_px4_bridge.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/deva/ros2_vio_px4_ws/install/vins_px4_bridge/lib/python3.10/site-packages/vins-px4-bridge.egg-link (link to .)
+Installing drift_monitor script to /home/deva/ros2_vio_px4_ws/install/vins_px4_bridge/lib/vins_px4_bridge
+Installing pose_bridge script to /home/deva/ros2_vio_px4_ws/install/vins_px4_bridge/lib/vins_px4_bridge
+
+Installed /home/deva/ros2_vio_px4_ws/build/vins_px4_bridge
+running symlink_data

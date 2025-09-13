@@ -1,0 +1,1 @@
+/home/deva/ros2_vio_px4_ws/build/pose_graph/ament_cmake_environment_hooks/local_setup.bash

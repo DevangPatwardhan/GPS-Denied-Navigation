@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+resource/vins_px4_bridge
+vins_px4_bridge/__init__.py
+vins_px4_bridge/drift_monitor.py
+vins_px4_bridge/pose_bridge.py
+vins_px4_bridge.egg-info/PKG-INFO
+vins_px4_bridge.egg-info/SOURCES.txt
+vins_px4_bridge.egg-info/dependency_links.txt
+vins_px4_bridge.egg-info/entry_points.txt
+vins_px4_bridge.egg-info/requires.txt
+vins_px4_bridge.egg-info/top_level.txt
+vins_px4_bridge.egg-info/zip-safe
