@@ -36,10 +36,11 @@ This repository contains a ROS2-based setup for Visual-Inertial Navigation using
 
 ## Installation
 
-```bash
 # Clone this repository
+```bash
 cd ~/ros2_vio_px4_ws/src
 git clone https://github.com/DevangPatwardhan/GPS-Denied-Navigation.git
+```
 
 # Initialize workspace
 cd ~/ros2_vio_px4_ws
