@@ -4,22 +4,15 @@ This repository contains a ROS2-based setup for Visual-Inertial Navigation using
 
 ---
 
-## Background Theory
-
-**Visual-Inertial Odometry (VIO)** combines camera measurements with inertial sensors (IMU) to estimate the position and orientation of a vehicle in 3D space. This is crucial in environments where GPS is unavailable or unreliable, such as indoors, urban canyons, or under dense foliage.
-
-**VINS-Mono** is a widely used VIO framework that fuses monocular camera images with IMU data to estimate state with high accuracy. The `vins_px4_bridge` in this repository converts VINS outputs into PX4-compatible messages, enabling integration with autopilot systems for autonomous navigation.
+## Motivation
+GPS signals are not always reliable, especially indoors, in tunnels, dense urban areas, or environments where signals can be blocked or jammed. Autonomous systems like drones and robots must still navigate accurately in such conditions. GPS denied navigation enables these systems to estimate their position and orientation using cameras, IMUs, and other onboard sensors, ensuring safe and reliable operation even when GPS is unavailable. This capability is essential for applications such as search and rescue, industrial inspections, and autonomous delivery in challenging environments.
 
 ---
 
-## Features / What’s New
-
-- ROS2 port of VINS-Mono
-- PX4-compatible odometry bridge (`vins_px4_bridge`)
-- Real-time visualization via `pose_graph`
-- Parameterizable launch configurations
-- Example Euroc dataset configuration included
-- Support for drift monitoring using `drift_monitor`
+## Features 
+- ROS2 port of VINS-Mono: Real-time monocular visual-inertial odometry for UAVs and robots, fully compatible with ROS2.
+- PX4-compatible odometry bridge (`vins_px4_bridge`): Converts VINS odometry to PX4 format for navigation and autonomous flight.
+- Drift monitoring (`drift_monitor`): Tracks odometry drift and alerts when positional deviation exceeds a configurable threshold.
 
 ---
 
